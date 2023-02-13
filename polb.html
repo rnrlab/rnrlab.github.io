@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Modesto">
+<meta name="dcterms.date" content="2023-01-05">
+
+<title>R’n’R lab - DNA polymerases</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./figs/rnr_logo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">R’n’R lab</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./polb.html">
+ <span class="dropdown-text">DNA polymerases</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./mge.html">
+ <span class="dropdown-text">Mobile Genetic Elements</span></a>
+  </li>  
+        <li class="dropdown-header">mda.qmd</li>
+        <li class="dropdown-header">tecti.qmd</li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./people.html">
+ <span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./funding.html">
+ <span class="menu-text">Funding</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html">
+ <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html">
+ <span class="menu-text">Contact us</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#polb" id="toc-polb" class="nav-link active" data-scroll-target="#polb">PolB</a>
+  <ul class="collapse">
+  <li><a href="#new-ppolbs-and-new-dna-replication-models" id="toc-new-ppolbs-and-new-dna-replication-models" class="nav-link" data-scroll-target="#new-ppolbs-and-new-dna-replication-models">New pPolBs and new DNA replication models</a></li>
+  <li><a href="#engineered-enzymes" id="toc-engineered-enzymes" class="nav-link" data-scroll-target="#engineered-enzymes">Engineered enzymes</a></li>
+  <li><a href="#pipolb" id="toc-pipolb" class="nav-link" data-scroll-target="#pipolb">piPolB</a></li>
+  </ul></li>
+  <li><a href="#bacterial-rts" id="toc-bacterial-rts" class="nav-link" data-scroll-target="#bacterial-rts">Bacterial RTs</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">DNA polymerases</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">DNA polymerase</div>
+    <div class="quarto-category">Biotech</div>
+    <div class="quarto-category">Replication</div>
+    <div class="quarto-category">B-family</div>
+    <div class="quarto-category">piPolB</div>
+  </div>
+  </div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <a href="https://rnrlab.github.io">Modesto</a> 
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Department of Biochemistry, UAM
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 5, 2023</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">January 16, 2023</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<div class="callout-important callout callout-style-default no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+<strong>DNA Polymerase (DNAP)</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>DNAPs are our favorite enzymes. In our lab, we analyze their amino acid sequences in order to gain insights into their origin and evolution.</p>
+<p>We also analyze their biochemical properties and biological role <em>in vivo</em>. We also try to infer possible applications in biotechnology and biomedicine.</p>
+</div>
+</div>
+<p>Many applications with fundamental importance in modern molecular biology and biomedicine, including the polymerase chain reaction (PCR) and whole genome DNA amplification (WGA) as well as some of the state-of-the-art DNA sequencing technologies, would not be feasible without the advances made in characterizing DNA polymerases (DNAPs) during the last 60 years. Furthermore, the development of WGA at the single-cell and single-molecule level has contributed to some of the most recent breakthroughs in our knowledge of different complex biological systems: from microbial ecosystems, shedding light into the microbial dark matter, to human disease, enhancing the sensitivity to detect genetic variants and mutation profiles of individual cells in a tissue or tumor and changing paradigms in early diagnosis of cancer and genetic diseases with non-invasive genetic tests.</p>
+<div style="float: right; position: relative; top: 0px; padding: 3px;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://twitter.com/MJasnauskaite/status/1518632637656612864"><img src="figs/FRND4UjWYAMDnFL.jpeg" class="img-fluid figure-img" alt="https://twitter.com/MJasnauskaite/status/1518632637656612864" width="371"></a></p>
+</figure>
+</div>
+</div>
+<p>DNAPs are enzymes that synthesize DNA, by copying a pre-existing parental DNA molecule. Thus, they are responsible for preserving genetic information by replicating and repairing nucleic acid molecules in the cells. Their structure resembles a half-open hand, comprising the palm, thumb and fingers subdomains, which are arranged as a right hand in most of the DNA polymerase families (A, B, C, D, Y and RT), whereas members of the X family can be considered as left-handed. The single-subunit DNA-dependent RNA polymerases (DdRps) that are related to phage T7 RNA polymerase, and viral RNA- dependent polymerases (RdRps) also display a right-hand folding. A common mechanism and evolutionary origin for DNA and those RNA polymerases have been often suggested (<a href="https://www.ncbi.nlm.nih.gov/pubmed/10364165">Steitz et al.&nbsp;1994</a>, <a href="https://doi.org/10.1186/1745-6150-1-39">Koonin 2006</a>, <a href="https://doi.org/10.1093/molbev/msu219">Monttinen et al.&nbsp;2014</a>); on the other hand, bifunctional primases-polymerases from archaeo-eukaryotic primases superfamily (AEPs) display an RNA-recognition motif fold with very distant similarities with DNA polymerases, suggesting a convergent evolution mechanism (<a href="https://doi.org/10.1093/nar/gki702">Iyer et al.&nbsp;2005</a>, <a href="https://doi.org/10.1093/nar/gkv625">Guilliam et al.&nbsp;2015</a>).</p>
+<section id="polb" class="level2">
+<h2 class="anchored" data-anchor-id="polb">PolB</h2>
+<p>Among DNAPs, <strong>family B DNA polymerases (PolBs)</strong> have been suggested to be the most ancient group of DNA polymerases (<a href="https://doi.org/10.1186/1745-6150-1-39">Koonin 2006</a>) and were usually divided into two groups (<a href="https://doi.org/10.1007/s00239-001-0078-x">Filee et al.&nbsp;2002</a>): RNA-primed (rPolBs) and protein-primed (pPolBs). The rPolB group comprises mainly replicases devoted to accurate and efficient copying of large cellular and viral genomes, whereas pPolBs are exclusive to viruses, like Adenoviruses or bacteriophages from podovirus and tectivirus families, and self-replicating mobile elements with moderately-sized linear genomes (&lt;50 kb) (<a href="https://doi.org/10.1093/nar/gkr564">Kazlauskas and Venclovas 2011</a>, <a href="https://doi.org/10.1038/nrmicro3389">Krupovic and Koonin 2015</a>).</p>
+<section id="new-ppolbs-and-new-dna-replication-models" class="level3">
+<h3 class="anchored" data-anchor-id="new-ppolbs-and-new-dna-replication-models">New pPolBs and new DNA replication models</h3>
+<p>Biochemical characterization of new PolBs and pPolBs beyond the classic models is very limited. However, the establishment of new models is required to explore the evolution as well as the potential of DNA polymerases. During the last years of Modesto in the Salas’ lab he and Margarita were lucky to recruit a couple of very good students that help to establish the <em>Bacillus thuringiensis</em> virus Bam35 as a new model for DNA replication. Like the virus Φ29, largely studied by Prof.&nbsp;Salas and her co-workers, Bam35 has a double stranded linear DNA genome, capped with a terminal protein on its 5’-ends.</p>
+<p>In two consecutive papers, <a href="https://pubmed.ncbi.nlm.nih.gov/26100910/">Berjón-Otero et al.&nbsp;2015</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/27466389/">Berjón-Otero et al.&nbsp;2016</a>, the main characteristic of Bam35 DNA replication machinery were revealed. Briefly, Bam35 pPolB is a highly processive replicase endowed with translasion synthesis capacity opposite to abasic sites. Addtionally, full-length Bam35 TP-DNA can be replicated using only the viral TP and DNA polymerase and genome replication priming entails the TP deoxythymidylation at conserved tyrosine 194 and that this reaction is directed by the third base of the template strand. the genetic information of the first nucleotides of the genome can be recovered by a novel single-nucleotide jumping-back mechanism. Given the similarities between genome inverted terminal repeats and the genes encoding the replication proteins, we propose that related tectivirus genomes can be replicated by a similar mechanism, although replication of more distant genomes undergo by different process.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/27466389/"><img src="images/image-1362005745.png" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">Genome end sequences (A) and schematic representation of early replication steps (B) of representative viruses that replicate by a protein-priming mechanism. From Berjón-Otero et al.&nbsp;2016</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="engineered-enzymes" class="level3">
+<h3 class="anchored" data-anchor-id="engineered-enzymes">Engineered enzymes</h3>
+<p>The characterization of B35DNAP prompted us to consider new applications of…</p>
+</section>
+<section id="pipolb" class="level3">
+<h3 class="anchored" data-anchor-id="pipolb">piPolB</h3>
+<p>In collaboration with Patrick Forterre and Mart Krupovic (Pasteur Institute), we reported a third major group of PolBs, previously overlooked, named primer- independent PolBs (piPolBs), which display templated, de novo DNA synthesis capacity (<a href="https://doi.org/10.1016/j.celrep.2017.10.039">Redrejo-Rodríguez et al.&nbsp;2017</a>). Contrary to RdRPs (<a href="https://doi.org/10.1128/JVI.74.2.851-863.2000">Luo et al.&nbsp;2000</a>, <a href="https://doi.org/10.1099/vir.0.19731-0">van Dijk et al.&nbsp;2004</a>), DNAPs were believed to be unable to initiate replication de novo, which could be only partly justified with incomplete arguments, like the existence of hindrance impediments of dNTPs as compared with NTPs, the requirement for major protein structural modifications, or incompatibility with the proofreading activity (<a href="http://emboj.embopress.org/content/22/10/2516.long">Lipps et al.&nbsp;2003</a>, <a href="https://doi.org/10.1093/molbev/msu219">Monttinen et al.&nbsp;2014</a>). Thus, the discovery of piPolBs dismisses those arguments and breaks the long-standing “primer rule”, a dogma in the field for 60 years, that stated that DNA polymerases required a pre-existing 3’-OH end to anchor the incoming nucleotide.</p>
+<p>The evolutionary relationship among the three PolB groups is unknown and it is thus unclear whether the putative ancestral enzyme would have employed a primer and its nature (protein or RNA). Available phylogenetic analyses suggest that pPolBs and piPolBs might share a common ancestor (Figure 1C). Both groups, pPolBs, and piPolBs share the presence of specific subdomains, named TPR1 and TPR2 (Figure 1A), which were originally described in bacteriophage Φ29 pPolB (Φ29DNAP). TPR1 is required for the DNAP interaction with the TP and the DNA template strand, whereas TPR2 endows pPolB with the processivity and strand-displacement capacities (Salas et al.&nbsp;2016). Indeed, the presence of TPR1 and TPR2 motifs have been usually a hallmark of pPolBs, which, provided that TPs sequences are usually not conserved, leads to prediction of a protein-primed DNA replication mechanism for a number of viruses (<a href="https://doi.org/S0042-6822(07)00148-1">Peng et al.&nbsp;2007</a>, <a href="https://doi.org/10.1126/science.1199412">Fischer and Suttle 2011,</a> among others) and self- replicative integrative genetic elements (<a href="https://www.pnas.org/content/103/12/4540.long">Kapitonov &amp; Jurka 2006</a>), yet without experimental characterization of those DNAPs.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/29117562/"><img src="images/gr1.jpg" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">Figure 1 (Redrejo-Rodríguez et al.&nbsp;2017)</figcaption><p></p>
+</figure>
+</div>
+<p>The piPolB-encoding genes are the hallmark of a new group of self-replicating mobile genetic elements (MGEs), that we named pipolins (for piPolB-encoding mobile element). Pipolins are integrated within the genomes of three highly diverse bacterial phyla (<em>Firmicutes</em>, <em>Actinobacteria</em> and <em>Proteobacteria</em>) and are also carried by mitochondria as circular plasmids. Multiple sequence analysis (MSA) showed that piPolB share exonuclease and polymerase motifs of PolBs, albeit with notable variations within the PolC and KxY motifs (Figure 1B).&nbsp;</p>
+</section>
+</section>
+<section id="bacterial-rts" class="level2">
+<h2 class="anchored" data-anchor-id="bacterial-rts">Bacterial RTs</h2>
+<p>Reverse transcriptases (RTs) are enzymes capable of synthesizing DNA using RNA as a template. Within the last few years, a burst of research has led to the discovery of novel prokaryotic RTs with diverse antiviral properties, such as DRTs (Defense-associated RTs), which belong to the so-called group of unknown RTs (UG) and are closely related to the Abortive Infection system (Abi) RTs.</p>
+<p>In a recent <a href="https://pubmed.ncbi.nlm.nih.gov/35648479/">work</a>, in collaboration with the <a href="https://www.csic.es/es/investigacion/grupos-de-investigacion/estructura-dinamica-y-funcion-de-genomas-de-rizobacterias">lab of Prof.&nbsp;Nicolás Toro</a>, we performed a systematic analysis of UG and Abi RTs, increasing the number of UG/Abi members up to 42 highly diverse groups, most of which are predicted to be functionally associated with other gene(s) or domain(s). Based on this information, we classified these systems into three major classes. In addition, we reveal that most of these groups are associated with defense functions and/or mobile genetic elements, and demonstrate the antiphage role of four novel groups. Besides, we highlight the presence of one of these systems in novel families of human gut viruses infecting members of the Bacteroidetes and Firmicutes phyla. This work lays the foundation for a comprehensive and unified understanding of these highly diverse RTs with enormous biotechnological potential.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2023, Modesto Redrejo Rodríguez</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/pipolinlab">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/RnR_Lab">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
