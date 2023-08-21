@@ -11,41 +11,37 @@ toc-depth: 2
 
 It took some time, but our new method for whole genome and metagenomes DNA amplification is just published in **NAR Genomics and Bioinformatics**: <https://academic.oup.com/nargab/article/5/3/lqad073/7246555>
 
-In this work, we used the [piPolB](polb.html#pipolb) to develop new methods for WGA. We used the piPolB alone and in combination with a Φ29 DNA polymerase, a highly processive DNA polymerase. Remarkably, the latter proved to be a great protocol, outperforming all previously available methods In particular, our piMDA method provides very good and unbiased coverage for sequences with high GC content, usually the Achilles heel of most MDA methods.
+This work was led by [\@CarlosDOC\_](https://twitter.com/CarlosDOC_), with the participation of [\@karmayoral](https://twitter.com/karmayoral) from the lab. We were also very fortunate to be able to count on the collaboration of Dr. Conceiçao Egas from [Biocant-CNC](https://cnc.uc.pt/en/people/c-egas) (Portugal).
 
-This work was led by [@CarlosDOC_](https://twitter.com/CarlosDOC_), with the participation of  [@karmayoral](https://twitter.com/karmayoral) from the lab. We were also very fortunate to be able to count on the collaboration of Dr. Conceiçao Egas from [Biocant-CNC](https://cnc.uc.pt/en/people/c-egas) (Portugal)
+In this work, we used the [piPolB](polb.html#pipolb) to develop new methods for WGA. We used the piPolB alone and in combination with a Φ29 DNA polymerase, a highly processive DNA polymerase. Remarkably, the latter proved to be a great protocol, outperforming all previously available methods In particular, our **piMDA** method provides not only high DNA yield but also a very competent and unbiased coverage for [sequences with high GC content]{.underline}, usually the Achilles heel of most MDA methods.
+
+Along the way, we found that piPolB is capable of *ab initio* DNA synthesis, without DNA primers or templates. This activity has been described before for other polymerases, especially thermoresistant enzymes, but it is often neglected in the literature. *Ab initio* DNA synthesis by piPolB is negligible for optimized piMDA methods, but is of importance for piPolB *solo* amplifications. Ongoing work aims to understand how this spurious DNA synthesis is regulated and control it to developing improved piPolB-base MDA methodologies.
 
 ### 
-
 
 ### June 15, 2023 - European patent application for piPolB granted!
 
 The WIPO site publishes today the decision to grant the European Patent of piPolB, entitled "Primer-independent DNA polymerases and their use for DNA synthesis", with ref. [EP305029628](https://patentscope.wipo.int/search/en/detail.jsf?docId=EP305029628&_fid=EP305029628).
 
-
 ### 
 
 ### May 29, 2023 - New Paper Alert
 
-We are happy to share our new review on DNA polymerases for whole (meta)genome amplification: [https://mdpi.com/1422-0067/24/11/9331](https://mdpi.com/1422-0067/24/11/9331) by [@CarlosDOC_](https://twitter.com/CarlosDOC_) and 
-[@mredrejo](https://twitter.com/mredrejo)
+We are happy to share our new review on DNA polymerases for whole (meta)genome amplification: <https://mdpi.com/1422-0067/24/11/9331> by [\@CarlosDOC\_](https://twitter.com/CarlosDOC_) and [\@mredrejo](https://twitter.com/mredrejo)
 
 ### 
 
 ### Jul 23, 2022 - CIVIS Summer School: Bioinformatics for non bioinformaticians.
-Modesto was one of the lectures in this great summer school [\@uni_tue](https://twitter.com/uni_tue), hosted by Profs. Thorsten Schmidt and Andre F. Martins.
-{{< tweet CoE_iFIT 1550769293989740546 >}}
 
+Modesto was one of the lectures in this great summer school [\@uni_tue](https://twitter.com/uni_tue), hosted by Profs. Thorsten Schmidt and Andre F. Martins. {{< tweet CoE_iFIT 1550769293989740546 >}}
 
 ### Jul 27, 2020 - Pipolins provided an opportunity to study diversity and variability of self-replicative genetic mobile elements in circulating bacteria
-Behind the paper in *Nature Microbiology Community*.
-[Link](https://microbiologycommunity.nature.com/posts/pipolins-provided-an-opportunity-to-study-diversity-and-variability-of-self-replicative-genetic-mobile-elements-in-circulating-bacteria)
+
+Behind the paper in *Nature Microbiology Community*. [Link](https://microbiologycommunity.nature.com/posts/pipolins-provided-an-opportunity-to-study-diversity-and-variability-of-self-replicative-genetic-mobile-elements-in-circulating-bacteria)
 
 ## Our **X** timeline
 
 ```{=html}
 
 <a class="twitter-timeline" href="https://twitter.com/RnR_Lab?ref_src=twsrc%5Etfw">Tweets by RnR_Lab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 ```
-
