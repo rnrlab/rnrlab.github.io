@@ -1,0 +1,47 @@
+project:
+  type: website
+website:
+  title: "R'n'R lab"
+  open-graph: true
+  site-url: https://rnrlab.github.io
+  twitter-card: 
+    site: "@RnR_Lab"
+  search: 
+    location: navbar
+    type: overlay
+  navbar:
+    background: primary
+    logo: "figs/rnr_logo.png"
+    right:
+      - href: index.qmd
+        text: Home
+      - text: "Research"
+        menu:
+          - polb.qmd
+          - mge.qmd
+          - mda.qmd
+          - tecti.qmd
+      - people.qmd
+      - funding.qmd
+      - teaching.qmd
+      - news.qmd
+      - contact.qmd
+  page-footer: 
+    left: "Copyright 2023, Modesto Redrejo Rodríguez" 
+    right: 
+      - icon: github
+        href: https://github.com/pipolinlab
+      - icon: twitter 
+        href: https://twitter.com/RnR_Lab
+  page-navigation: true
+format:
+  html:
+    theme: united
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-icon: true
+    link-external-newwindow: true
+editor: visual
+

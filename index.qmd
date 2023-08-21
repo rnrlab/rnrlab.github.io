@@ -2,7 +2,7 @@
 title: "R&R lab @UAM"
 subtile: "DNA Replication & Repair: evolution, mechanisms and applications"
 date: "January 5, 2023"
-date-modified: "`r format(Sys.time(), '%Y-%m-%d (%H:%M h)')`"
+
 description: "DNA Replication & Repair: evolution, mechanisms and applications"
 title-block-banner: "#C3E9FF"
 title-block-banner-color: "#000A8F"

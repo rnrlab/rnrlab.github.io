@@ -1,0 +1,70 @@
+---
+title: "Teaching"
+date: "January 5, 2023"
+date-modified: "June 25, 2023"
+---
+
+::: {.callout-note icon="true"}
+## Disclaimers
+
+This section contains slides and other materials elaborated by lab members. Unless otherwise stated, all the materials are shared under CC BY-NC-SA license.
+
+Although most of the material is in English, some of the information of the courses may be in Spanish.
+
+To optimize the site space, only the most recent versions are included using\
+temporal links. Please let us know if you cannot download some files.
+:::
+
+::: {style="float: right; position: relative; top: -160px; padding: 3px;"}
+[![](figs/by-nc-sa.png){width="92"}](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+:::
+
+# Bachelor Degree in Biochemistry (Grado en Bioquímica)
+
+## Biosynthesis of Macromolecules (3rd year, Fall Semester)
+
+In this course, we provide a detailed background on the flow of genetic information. Since the year 2019-2020, Modesto lecture the first part of the course focused on **DNA Replication & Repair.**
+
+-   [2022-2023 Course Syllabus](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/EfTc9o666uZNjfwZCU-dR-IBddSozoNQO4ky7hkPIQ6vRQ?e=KQV2Ea)
+
+-   [2022-2023 Replication and Repair Slides](https://dauam-my.sharepoint.com/:f:/g/personal/modesto_redrejo_uam_es/EsZn_xYxnepAs1DLKiqtHOMB3BqmqDy-skZJKOHY128F8A?e=wPTRp5)
+
+## Coding Tools for Biochemistry and Molecular Biology (4rd year, Fall Semester)
+
+This is an introductory course to bioinformatics coding, by the use of Python and R. Since the year 2021-22 Modesto lecture most of the **R** section.
+
+-   [2022-2023 Syllabus](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/ES1JSbyETIFOlIMfbTukziMB3V-TpkkezH3YwlR4AfF5yA?e=GQ1wuy)
+
+-   [2022-2023 Reference Materials](https://mredrejo.github.io/HPBBM2022/)
+
+-   [2022-2023 Slides](https://dauam-my.sharepoint.com/:f:/g/personal/modesto_redrejo_uam_es/Ehp-N-nRr71MkhZ8R8aVfJwBGbgLhMzESfhmTp5ysIvCpg?e=0RuGpH)
+
+## Experimental Models in Biomedicine (4rd year, Fall Semester)
+
+In this course, we mentor the students in developing research projects using diverse biological models. Namely, we participate in the use of **yeast two-hybrid boosted by high-throughput sequencing approaches to study protein interactomes**.
+
+-   [2022-2023 Syllabus](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/EYlIhaze0UxLn6cCDmz0VG8BHZjlOjOSXvNqqW5jiyW46g?e=HAjQWJ)
+
+-   [2022-2023 Slides](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/EcTvBgCGE_9Fu4Xca1w-3rcB3soMgSh2lnczsmBAlRgs0w?e=TxB5Uu)
+
+# Master's Degree in Bioinformatics and Computational Biology
+
+## Structural Bioinformatics
+
+-   [2022-2023 Syllabus](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/EXvH5Ek4giFEsho4zZPCSiIBXoiTjW8DOZQhd9_jjGZQWA?e=gTMEvu)
+
+-   [2022-2023 Materials](https://strbio.github.io/strbio2022_23/)
+
+-   [2022-2023 Slides](https://dauam-my.sharepoint.com/:f:/g/personal/modesto_redrejo_uam_es/EiJOwHBHWjZDqT_HhzJJelABu-e5LKJ7gUHPEEqg3KKT3Q?e=kX48d4)
+
+# Other Lectures & Courses
+
+## Replication, Repair and Genome's Instability (Master's Degree in Biomolecules and Cell Dynamics)
+
+[Repair of oxidative DNA damage (Slides 2022-2023).](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/EeWeXPPe_flDrUvpmoK226YBZ3wSkHSF-iHuCbSearII8g?e=QvXOBv)
+
+## Bioinformatics for non-bioinformaticians ([link](https://civis.eu/en/civis-courses/bioinformatics-for-non-bioinformaticians-computational-analyses-in-health-and-life-sciences))
+
+*CIVIS Summer School in Tübingen (18-22 July 2022).*
+
+[Hands on Introduction to Protein Modeling](https://mredrejo.github.io/handson2022/)

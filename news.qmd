@@ -1,0 +1,32 @@
+---
+title: "Lab news"
+
+toc: TRUE
+toc-depth: 2
+---
+
+## Blog posts, news
+
+### May 29, 2023 - New Paper Alert
+We are happy to share our new review on DNA polymerases for whole (meta)genome amplification: [https://mdpi.com/1422-0067/24/11/9331](https://mdpi.com/1422-0067/24/11/9331) by [@CarlosDOC_](https://twitter.com/CarlosDOC_) and 
+[@mredrejo](https://twitter.com/mredrejo)
+
+### 
+
+### Jul 23, 2022 - CIVIS Summer School: Bioinformatics for non bioinformaticians.
+Modesto was one of the lectures in this great summer school [\@uni_tue](https://twitter.com/uni_tue), hosted by Profs. Thorsten Schmidt and Andre F. Martins.
+{{< tweet CoE_iFIT 1550769293989740546 >}}
+
+
+### Jul 27, 2020 - Pipolins provided an opportunity to study diversity and variability of self-replicative genetic mobile elements in circulating bacteria
+Behind the paper in *Nature Microbiology Community*.
+[Link](https://microbiologycommunity.nature.com/posts/pipolins-provided-an-opportunity-to-study-diversity-and-variability-of-self-replicative-genetic-mobile-elements-in-circulating-bacteria)
+
+## Our **X** timeline
+
+```{=html}
+
+<a class="twitter-timeline" href="https://twitter.com/RnR_Lab?ref_src=twsrc%5Etfw">Tweets by RnR_Lab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+```
+
