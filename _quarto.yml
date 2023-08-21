@@ -30,7 +30,7 @@ website:
     left: "Copyright 2023, Modesto Redrejo Rodríguez" 
     right: 
       - icon: github
-        href: https://github.com/pipolinlab
+        href: https://github.com/rnrlab
       - icon: twitter 
         href: https://twitter.com/RnR_Lab
   page-navigation: true
