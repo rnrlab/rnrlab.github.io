@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rnrlab.github.io/news.html</loc>
-    <lastmod>2023-08-21T17:06:55.906Z</lastmod>
+    <lastmod>2023-08-29T11:42:59.579Z</lastmod>
   </url>
   <url>
     <loc>https://rnrlab.github.io/teaching.html</loc>
-    <lastmod>2023-08-29T11:28:17.031Z</lastmod>
+    <lastmod>2023-08-29T11:42:50.982Z</lastmod>
   </url>
   <url>
     <loc>https://rnrlab.github.io/index.html</loc>
-    <lastmod>2023-08-29T11:29:25.134Z</lastmod>
+    <lastmod>2023-08-29T11:43:18.035Z</lastmod>
   </url>
   <url>
     <loc>https://rnrlab.github.io/polb.html</loc>
     <lastmod>2023-08-21T15:40:07.207Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnrlab.github.io/people.html</loc>
+    <lastmod>2023-08-29T11:42:15.436Z</lastmod>
   </url>
 </urlset>

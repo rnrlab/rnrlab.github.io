@@ -2,11 +2,15 @@
 title: "R&R lab @UAM"
 subtile: "DNA Replication & Repair: evolution, mechanisms and applications"
 date: "January 5, 2023"
-
+date-modified: "`r Sys.Date()`"
 description: "DNA Replication & Repair: evolution, mechanisms and applications"
 title-block-banner: "#C3E9FF"
 title-block-banner-color: "#000A8F"
 ---
+
+```{r}
+
+```
 
 ::: {.callout-important icon="false"}
 ### **21st August 2023 - New Paper Alert!**
@@ -15,8 +19,7 @@ It took some time, but our new method for whole genome and metagenomes DNA ampli
 
 In this work, we used the [piPolB](polb.html#pipolb) to develop new methods for WGA. We used the piPolB alone and in combination with a Φ29 DNA polymerase, a highly processive DNA polymerase. Remarkably, the latter proved to be a great protocol, outperforming all previously available methods In particular, our piMDA method provides very good and unbiased coverage for sequences with high GC content, usually the Achilles heel of most MDA methods.
 
-
-This work was led by [@CarlosDOC_](https://twitter.com/CarlosDOC_), with the participation of  [@karmayoral](https://twitter.com/karmayoral) from the lab. We were also very fortunate to be able to count on the collaboration of Dr. Conceiçao Egas from [Biocant-CNC](https://cnc.uc.pt/en/people/c-egas) (Portugal).
+This work was led by [\@CarlosDOC\_](https://twitter.com/CarlosDOC_), with the participation of [\@karmayoral](https://twitter.com/karmayoral) from the lab. We were also very fortunate to be able to count on the collaboration of Dr. Conceiçao Egas from [Biocant-CNC](https://cnc.uc.pt/en/people/c-egas) (Portugal).
 :::
 
 # Welcome...
@@ -25,17 +28,16 @@ This work was led by [@CarlosDOC_](https://twitter.com/CarlosDOC_), with the par
 ![](figs/rnr_logo.png){width="200"}
 :::
 
-... to the **R'n'R lab**, where you can learn about DNA **R**eplication and **R**epair, meet Modesto **R**edrejo **R**odríguez and listen to **R**ock & **R**oll music. 
+... to the **R'n'R lab**, where you can learn about DNA **R**eplication and **R**epair, meet Modesto **R**edrejo **R**odríguez and listen to **R**ock & **R**oll music.
 
 Our lab is at the [School of Medicine of UAM](https://www.uam.es/Medicina/Home/1234890379763.htm?language=en) (Madrid) and it also belongs to the [*Instituto de Investigaciones Biomédicas "Alberto Sols"*](https://www.iib.uam.es/portal/), a joint CSIC/UAM Research Institute on biomedicine. The RnR group is also available at [IIB site](https://www.iib.uam.es/portal/investigacion/grupos?p_p_id=APGIportlet_WAR_APIIBportlet_INSTANCE_2Veq&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-3&p_p_col_count=1&_APGIportlet_WAR_APIIBportlet_INSTANCE_2Veq_action=detail&_APGIportlet_WAR_APIIBportlet_INSTANCE_2Veq_id=1072&_APGIportlet_WAR_APIIBportlet_INSTANCE_2Veq_idJefe=4072&_APGIportlet_WAR_APIIBportlet_INSTANCE_2Veq_menu=intro).
 
 # Lab Scope
 
-
-
 ::: {style="float: left; position: relative;  bottom: 12px;padding-right: -10px;margin:0px 0px -20px 0px"}
 ![](figs/rnr_short.gif){width="350"}
 :::
+
 In our lab, we focus on the protein factors (enzymes) that carry out DNA replication and repair.
 
 [DNA polymerases](https://en.wikipedia.org/wiki/DNA_polymerase) are the main responsible for copying the information stored in each DNA strand. We are also interested in other enzymes, such as DNA binding proteins, or DNA Glycosylases, and AP endonuclease, which can surgically identify and remove damage from the double helix. We carry out structure-function studies along with phylogenetic approaches to understand the mechanisms of DNA maintenance and the evolution of those mechanisms.

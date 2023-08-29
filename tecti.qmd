@@ -1,0 +1,26 @@
+---
+title: "Tectiviruses as a model"
+date: "January 16, 2023"
+author: 
+  - name: Modesto
+    url: https://rnrlab.github.io
+    affiliation: Department of Biochemistry, UAM
+    affiliation_url: https://www.uam.es/
+date-modified: "`r format(Sys.time(), '%Y-%m-%d (%H:%M h)')`"
+categories: 
+  - MDA
+  - WGA
+  - piMDA
+  - DNA amplification
+  - Biotechnology
+toc: TRUE
+bibliography: references.bib
+---
+
+# Tectiviruses as a model for protein-primed DNA replication
+
+![](images/ConcreteMessyKob-size_restricted.gif "Under construction...")
+
+::: callout-warning
+## Watch out! This page is still being synthesized!
+:::

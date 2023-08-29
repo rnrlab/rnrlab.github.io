@@ -1,8 +1,12 @@
 ---
 title: "Teaching"
 date: "January 5, 2023"
-date-modified: "June 25, 2023"
+date-modified: "`r Sys.Date()`"
 ---
+
+```{r}
+
+```
 
 ::: {.callout-note icon="true"}
 ## Disclaimers
@@ -33,6 +37,8 @@ In this course, we provide a detailed background on the flow of genetic informat
 
 This is an introductory course to bioinformatics coding, by the use of Python and R. Since the year 2021-22 Modesto lecture most of the **R** section.
 
+-   [2023-2024 Reference Materials](https://mredrejo.github.io/HPBBM2023/) (with the help of Prof. Luis del Peso).
+
 -   [2022-2023 Syllabus](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/ES1JSbyETIFOlIMfbTukziMB3V-TpkkezH3YwlR4AfF5yA?e=GQ1wuy)
 
 -   [2022-2023 Reference Materials](https://mredrejo.github.io/HPBBM2022/)
@@ -50,6 +56,8 @@ In this course, we mentor the students in developing research projects using div
 # Master's Degree in Bioinformatics and Computational Biology
 
 ## Structural Bioinformatics
+
+-   [2023-2024 Materials](https://strbio.github.io/)
 
 -   [2022-2023 Syllabus](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/EXvH5Ek4giFEsho4zZPCSiIBXoiTjW8DOZQhd9_jjGZQWA?e=gTMEvu)
 

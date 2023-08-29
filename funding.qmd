@@ -1,0 +1,58 @@
+---
+title: "Funding"
+date: "January 5, 2023"
+date-modified: "`r format(Sys.time(), '%Y-%m-%d (%H:%M h)')`"
+toc: FALSE
+---
+
+Although we always acknowledge our funding in publications and presentations, we also want to thank again our financiers and keep record of lab grants in this site. Unless otherwise stated, Modesto was the principal investigator of the grants below.
+
+# Functional characterization of primer-independent DNA polymerases in the context of genotoxic stress in bacteria
+
+**Founder:** Agencia Estatal de Investigación, 1/9/2022-31/8/2025
+
+**Grant Ref.** PID2021-123403NB-I00.
+
+**Funding:** 145.200€
+
+![](figs/micin-uefeder-aei.png){width="600"}
+
+# Insights into Pipolins diversity and dynamics in a wide range of pathogenic bacteria.
+
+**Founder:** UAM-CAM, 1/1/2022-31/12/2023
+
+**Grant Ref.** SI3-PJI-2021-00271.
+
+**Funding:** 42.120€.
+
+![](figs/v_pricit.png)
+
+# Comprehensive virus-host protein interactome by the use of yeast-two-hybrid system coupled to next-generation sequencing analysis (VirHost-omics).
+
+**Founder:** Fundación Ramón Areces, 1/4/2019-31/12/2022 (PI since December 2019).
+
+**Grant Ref.:** CIVP19A5940.
+
+**Funding:** 129.600€
+
+![](figs/logo-FRA.png)
+
+# Primer-independent DNA polymerases and their applications in biotechnology and biomedicine.
+
+**Founder:** Agencia Estatal de Investigación, 1/1/2019-30/09/2022
+
+**Grant Ref.:** PGC2018-093723-A-I00.
+
+**Funding:** 127.050€
+
+![](figs/micin-uefeder-aei.png){width="600"}
+
+# New fusion DNA polymerases with biotechnology applications.
+
+**Founder:** Fundación General CSIC, 1/9/2015-31/8/2018
+
+**Grant Ref.:** NewPols4Biotech.
+
+**Total Funding:** 159.000€
+
+[![](figs/Logo%20ComFuturo_Horizontal_espanol.png){fig-align="left" width="398"}](https://comfuturo.es/first-edition/)

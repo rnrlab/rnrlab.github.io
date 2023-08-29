@@ -1,0 +1,23 @@
+---
+title: "Contact us"
+date: "`r format(Sys.time(), '%Y-%m-%d (%H:%M h)')`"
+toc: TRUE
+---
+
+## Biochemistry Department @UAM Medicine Campus (Madrid)
+
+![](images/MedicinaMapa-01.jpg)
+
+## The lab By Metro
+
+The lab is 10 min walk from the Begoña Metro Station (Exit to *San Modesto*). Follow the dashed line to the Biochemistry Department door. The arrow indicates a shortcut using a small door to the Medicine Campus.
+
+Once inside the Campus walk straight until you find the big building of the School of Medicine.
+
+![](images/mapa_metro_lab.jpg)
+
+## Contact us
+
+You can reach us on Twitter [![](figs/tw.png "@RnR_Lab"){width="14" height="11"}](https://twitter.com/RnR_Lab)@RnR_Lab
+
+For inquires about publications or internships, please email Modesto (mredrejo at iib.uam.es)
