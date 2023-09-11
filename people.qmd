@@ -26,7 +26,7 @@ Juan is a very experienced researcher in genetics and molecular biology of model
 
 Esme is an expert molecular microbiologist from Buenos Aires. She is highly interested in pipolins diversity and mobilization.
 
-#### Carmen Mayoral Campos (PhD Student, 2019- )[{{< iconify ](https://twitter.com/karmayoral)[fa6](https://twitter.com/karmayoral "@karmayoral")[-brands x-twitter >}}](https://twitter.com/karmayoral)
+#### Carmen Mayoral Campos (PhD Student, 2019- )[{{< iconify](https://twitter.com/karmayoral)[fa6](https://twitter.com/karmayoral "@karmayoral")[-brands x-twitter >}}](https://twitter.com/karmayoral)
 
 Carmen is graduated in Biology and MSc in Biomolecules and Cell Dynamics (UAM). She is working in structure-function studies of piPolB, focused on understanding DNA priming capacity of these new DNA polymerases.
 
