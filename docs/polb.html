@@ -41,6 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,6 +66,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="R’n’R lab - DNA polymerases">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://rnrlab.github.io/figs/FRND4UjWYAMDnFL.jpeg">
+<meta property="og:site-name" content="R'n'R lab">
+<meta name="twitter:title" content="R’n’R lab - DNA polymerases">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://rnrlab.github.io/figs/FRND4UjWYAMDnFL.jpeg">
+<meta name="twitter:site" content="@RnR_Lab">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -125,6 +135,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html" rel="" target="">
+ <span class="menu-text">Lab news</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html" rel="" target="">
@@ -503,7 +517,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/rnrlab\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
@@ -530,16 +544,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/pipolinlab">
+    <a class="nav-link" href="https://github.com/rnrlab">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
   </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/RnR_Lab">
-      <i class="bi bi-twitter" role="img">
-</i> 
-    </a>
+    <li class="nav-item">
+    <a class="nav-link" href="https://twitter.com/RnR_Lab"><iconify-icon inline="" icon="fa6-brands:x-twitter"></iconify-icon></a>
   </li>  
 </ul>
     </div>
