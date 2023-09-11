@@ -14,7 +14,6 @@ categories:
   - DNA amplification
   - Biotechnology
 toc: TRUE
-bibliography: references.bib
 ---
 
 # Tectiviruses as a model for protein-primed DNA replication

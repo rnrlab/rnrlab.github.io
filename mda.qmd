@@ -14,14 +14,12 @@ categories:
   - DNA amplification
   - Biotechnology
 toc: TRUE
-bibliography: references.bib
 ---
-
-
 
 ![](images/ConcreteMessyKob-size_restricted.gif "Under construction...")
 
 ::: callout-warning
 ## Watch out! This page is still being synthesized!
-In the meantime, we suggest our recent review on DNA polymerases for whole (meta)genome amplification: [https://mdpi.com/1422-0067/24/11/9331](https://mdpi.com/1422-0067/24/11/9331)
+
+In the meantime, we suggest our recent review on DNA polymerases for whole (meta)genome amplification: <https://mdpi.com/1422-0067/24/11/9331>
 :::

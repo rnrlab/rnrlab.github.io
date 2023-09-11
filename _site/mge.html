@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Modesto">
+<meta name="dcterms.date" content="2023-01-16">
+
+<title>R’n’R lab - Mobile Genetic Elements</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="R’n’R lab - Mobile Genetic Elements">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://rnrlab.github.io/images/ConcreteMessyKob-size_restricted.gif">
+<meta property="og:site-name" content="R'n'R lab">
+<meta name="twitter:title" content="R’n’R lab - Mobile Genetic Elements">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://rnrlab.github.io/images/ConcreteMessyKob-size_restricted.gif">
+<meta name="twitter:site" content="@RnR_Lab">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./figs/rnr_logo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">R’n’R lab</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./polb.html" rel="" target="">
+ <span class="dropdown-text">DNA polymerases</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./mge.html" rel="" target="">
+ <span class="dropdown-text">Mobile Genetic Elements</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./mda.html" rel="" target="">
+ <span class="dropdown-text">DNA polymerases in biotechnology</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tecti.html" rel="" target="">
+ <span class="dropdown-text">Tectiviruses as a model</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./people.html" rel="" target="">
+ <span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./funding.html" rel="" target="">
+ <span class="menu-text">Funding</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html" rel="" target="">
+ <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html" rel="" target="">
+ <span class="menu-text">Lab news</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html" rel="" target="">
+ <span class="menu-text">Contact us</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#mobile-genetic-elements" id="toc-mobile-genetic-elements" class="nav-link active" data-scroll-target="#mobile-genetic-elements">Mobile genetic elements</a></li>
+  <li><a href="#self-replicative-mges-or-not" id="toc-self-replicative-mges-or-not" class="nav-link" data-scroll-target="#self-replicative-mges-or-not">Self-replicative MGEs… or not?</a>
+  <ul class="collapse">
+  <li><a href="#pipolins-our-model-mge" id="toc-pipolins-our-model-mge" class="nav-link" data-scroll-target="#pipolins-our-model-mge">Pipolins, our model MGE</a></li>
+  <li><a href="#explorepipolin" id="toc-explorepipolin" class="nav-link" data-scroll-target="#explorepipolin">ExplorePipolin</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mobile Genetic Elements</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Mobile element</div>
+    <div class="quarto-category">Bacteriophage</div>
+    <div class="quarto-category">Pipolin</div>
+    <div class="quarto-category">Bioinformatics</div>
+    <div class="quarto-category">Patogen</div>
+  </div>
+  </div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://rnrlab.github.io">Modesto</a> </p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Department of Biochemistry, UAM
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 16, 2023</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">Invalid Date</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<section id="mobile-genetic-elements" class="level1">
+<h1>Mobile genetic elements</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<strong>Acknowledgment</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This brief section belongs to the Introduction of the Master’s Thesis from one of our students, Víctor Mateo-Cáceres (UAM, June 2022).</p>
+</div>
+</div>
+<p><img src="images/ConcreteMessyKob-size_restricted.gif" title="Under construction..." class="img-fluid"></p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Watch out! This page is still being synthesized!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p>Over the course of evolution, genetic material has found diverse ways of mobilization beyond vertical inheritance. A whole spectrum of vehicles, ranging from plasmids to phages, is used by all bacterial species for the horizontal transference of DNA between cells <span class="citation" data-cites="frost2005">[@frost2005, @partridge2018]</span>. These wandering DNA sequences, referred to as Mobile Genetic Elements (MGE), can encode virulence determinants, antimicrobial resistance (AMR) genes, phage defense systems, and other factors that grant their hosts new phenotypic traits <span class="citation" data-cites="khosts">[@khosts'2020]</span> . MGE transference is especially relevant in prokaryotes, where specific DNA mobilization systems have been developed to enhance and optimize the acquisition of these elements <span class="citation" data-cites="frost2005">[@frost2005]</span>. In fact, obtaining advantageous features through MGE transference is the main form of short-term adaptation in bacteria and can become crucial for cell survival, as in the case of AMR genes. The concerning increase of multidrug-resistant (MDR) bacteria is a clear example of this last point <span class="citation" data-cites="magiorakos2012">[@magiorakos2012]</span>. Therefore, it is essential to discover and characterize new mechanisms of genetic transference in order to disclose which features allow certain bacterial strains to succeed over the rest, especially the pathogenic ones.</p>
+<p>Horizontal genetic exchange mechanisms can be classified into three main groups according to the DNA introduction pathway: transformation, transduction, and conjugation (Figure 1). Transformation is the direct uptake of genetic material from the extracellular medium, which is frequently inefficient and can require activating the competence state <span class="citation" data-cites="carvalho2020">[@carvalho2020, @firth2018]</span>. Transduction refers to the transport of foreign DNA by viral particles <span class="citation" data-cites="humphrey2021">[@humphrey2021]</span>. Conjugation, which has been extensively studied in plasmids, involves the transference of DNA from a donor cell to a recipient cell through the Type IV Secretion System (T4SS) <span class="citation" data-cites="smillie2010">[@smillie2010]</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/hgt.png" class="img-fluid figure-img" width="489"></p>
+<figcaption class="figure-caption">Figure 1. Main mechanisms of genetic horizontal transfer. (A) Transformation: direct extracellular DNA uptake by the cell. (B) Transduction: DNA transference through the injection of a phage genetic content. (C) Conjugation: DNA transference through the Type IV Secretion System. T4SS: Type IV Secretion System, T4CP: T4SS coupling protein. Modified with Biorender from Frost et. al (2005)</figcaption>
+</figure>
+</div>
+<p>Conjugative plasmids typically carry all genes necessary for T4SS configuration plus a T4SS coupling protein (T4CP), which is involved in the T4SS-DNA interaction, and a relaxase, which is a nickase necessary for generating the single-stranded DNA (ssDNA) that will be transferred. In fact, relaxases can be divided into several families according to their sequence and have been proposed as markers for plasmid classification <span class="citation" data-cites="smillie2010 garcillan-barcia2009">[@smillie2010; @garcillan-barcia2009]</span>. Nevertheless, we currently know conjugative plasmids that lack some of the conjugation modules and conjugative plasmids with the capacity of integrating into the genome, also called Integrative and Conjugative Elements (ICEs) <span class="citation" data-cites="botelho2021">[@botelho2021]</span>, remarking the high flexibility of this type of MGEs.</p>
+</section>
+<section id="self-replicative-mges-or-not" class="level1">
+<h1>Self-replicative MGEs… or not?</h1>
+<p>We are particularly interested in elements encoding enzymes related to DNA replication and repair. Thus, the discovery, some time ago, of a group of MGEs called Polintons <span class="citation" data-cites="kapitonov2006">@kapitonov2006</span>, as they encode their own B-family DNA polymerase. Later, another MGEs group also resulted to contain a PolB, the Casposons <span class="citation" data-cites="krupovic2014">@krupovic2014</span>. This led some authors to define a group of elements that might be self-replicative elements <span class="citation" data-cites="krupovic2016">@krupovic2016</span>. However, the role of those PolBs is still unknown.</p>
+<section id="pipolins-our-model-mge" class="level2">
+<h2 class="anchored" data-anchor-id="pipolins-our-model-mge">Pipolins, our model MGE</h2>
+<p>Apart from phages, plasmids, ICEs, and other MGEs that have been in the spotlight for the last years, such as integrons or CRISPR-Cas Associated Transposons (CASTs), one group recently discovered stands out for its large genetic diversity and variability: pipolins. This new superfamily of MGEs comprises elements found in the three major bacterial phyla and even mitochondria <span class="citation" data-cites="redrejo-rodríguez2017">@redrejo-rodríguez2017</span>. The only gene shared by all pipolins encodes for a replicative DNA polymerase from the family B (PolB), granting these elements the category of the so-called “self-replicating” elements along with the abovementioned Polintons and Casposons. However, PolBs from pipolins do not need a DNA/RNA 3’-end or a protein as a primer to initiate the complementary strand synthesis, making pipolins a unique class of elements inside the MGE universe. Furthermore, the biochemical characterization of this polymerase named piPolB (from primer-independent) has shown that it has capacity of proofreading, strand displacement, and replication over both undamaged and damaged templates. All of these features plus the de-novo DNA synthesis suggest a possible role for the piPolB in pipolin replication and/or cell DNA damage tolerance.&nbsp;However, we could generate a <em>E. coli</em> strain harboring pipolin but lacking the piPolB, which indicates that piPolB is not essential for pipolin maintenance. This result raised questions about the biological role of piPolB, but also about the “self-replicating” GME. Are they replicating at all?<br>
+Later on, we could characterize the pipolins in pathogenic <em>E. coli</em> strains, showing that they are highly flexible and diverse, with the piPolB and the integration site being the only features in common to all elements <span class="citation" data-cites="flament-simon2020">@flament-simon2020</span>. We described this work also in this <a href="https://microbiologycommunity.nature.com/posts/pipolins-provided-an-opportunity-to-study-diversity-and-variability-of-self-replicative-genetic-mobile-elements-in-circulating-bacteria">post</a> in Nature Microbiology Community site.</p>
+<p><img src="images/383903a6-985f-43a4-9ca7-27ebd1848073_large.avif" class="img-fluid"></p>
+<p><em>E. coli</em> pipolins appear as integrated elements next to a specific tRNA gene, delimited by two direct repetitions (DRs) similar to phage atts, and encode for several distinct functions other than the piPolB. Among these different functions, we often find: tyrosine-recombinases (Y-rec), probably responsible for the excision and integration of the element; restriction-modification (RM) enzymes, known as defense systems against foreign DNA; and many other genes related to DNA mobilization and metabolism (integrases, Uracil-DNA glycosylases, excisionases). Surprisingly, no antimicrobial resistance gene was found in any pipolin except very few cases.<br>
+</p>
+</section>
+<section id="explorepipolin" class="level2">
+<h2 class="anchored" data-anchor-id="explorepipolin">ExplorePipolin</h2>
+<p>The recent accessibility of high-throughput sequencing methods as part of surveillance programs of bacterial pathogens allows the genomic and metagenomic monitoring of the expansion of bacterial strain-specific markers, including virulence and AMR genes. However, these fast-evolving methods also generated a burden of data that must be throughout processed and analyzed <span class="citation" data-cites="mitchell2019">@mitchell2019</span>. This is particularly problematic regarding the study of dynamics and plasticity of MGEs, as they can range in size from very simple and small elements, such as insertion elements (IS), coding for only the transposase necessary for their relocation, to large prophages, transposons and plasmids, which can be tens or hundreds of kilobase pairs in length and also appear associated among themselves <span class="citation" data-cites="partridge2018">@partridge2018</span> <span class="citation" data-cites="durrant2020">@durrant2020</span> <span class="citation" data-cites="benler2021">@benler2021</span>. Further, MGEs prediction and analysis are hindered by their great modularity and rapid evolution through gene acquisition and gene loss. Many pipelines designed for the analysis of MGEs are specialized and rely on the identification of hallmark genes, like plasmid replication proteins <span class="citation" data-cites="carattoli2020">@carattoli2020</span>, relaxases <span class="citation" data-cites="alvarado2012">@alvarado2012</span> or specific transposase or recombinases for integrative elements <span class="citation" data-cites="ross2021">@ross2021</span> <span class="citation" data-cites="siguier2012">@siguier2012</span> <span class="citation" data-cites="moura2009">@moura2009</span> <span class="citation" data-cites="cury2017">@cury2017</span> <span class="citation" data-cites="cury2016">@cury2016</span>. Some works have focused on the use of selected, high-quality reference genomes, but at the cost of diversity loss <span class="citation" data-cites="jiang2019">@jiang2019</span>.</p>
+<p>In order to facilitate the characterization of pipolins, we developed <a href="https://github.com/pipolinlab/ExplorePipolin">ExplorePipolin</a>, a Python-based pipeline that screens for the presence of the element and performs its reconstruction and annotation. The pipeline can be used on virtually any genome from diverse organisms and of diverse quality, obtaining the highest-scored possible structure and reconstructed out of different contigs if necessary. Then, predicted pipolin boundaries and pipolin encoded genes are subsequently annotated using a custom database, returning the standard file formats suitable for comparative genomics of this mobile element.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/rnrlab\.github\.io");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2023, Modesto Redrejo Rodríguez</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/rnrlab">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://twitter.com/RnR_Lab"><iconify-icon inline="" icon="fa6-brands:x-twitter"></iconify-icon></a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

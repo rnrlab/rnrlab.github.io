@@ -4,11 +4,15 @@ date: "January 6, 2023"
 date-modified: "`r format(Sys.time(), '%Y-%m-%d')`"
 ---
 
+```{r}
+
+```
+
 # Current Members
 
-#### Modesto Redrejo Rodríguez (PI, Assistant Professor) [![](figs/orcid.png){width="16"}](https://orcid.org/0000-0003-0014-4162) [![](figs/scopus-logo.png){width="16"}](https://www.scopus.com/authid/detail.uri?authorId=12791769600) [![](figs/rg.png){width="16"}](https://www.researchgate.net/profile/Modesto-Redrejo-Rodriguez) [![](figs/wos.png){width="16"}](https://www.webofscience.com/wos/author/record/D-7247-2012) [![](figs/tw.png "@mredrejo"){width="17"}](https://twitter.com/mredrejo)
+#### Modesto Redrejo Rodríguez (PI, Assistant Professor) [![](figs/orcid.png){width="16"}](https://orcid.org/0000-0003-0014-4162) [![](figs/scopus-logo.png){width="16"}](https://www.scopus.com/authid/detail.uri?authorId=12791769600) [![](figs/rg.png){width="16"}](https://www.researchgate.net/profile/Modesto-Redrejo-Rodriguez) [![](figs/wos.png){width="16"}](https://www.webofscience.com/wos/author/record/D-7247-2012) [{{< iconify fa6-brands x-twitter >}}](https://twitter.com/mredrejo "@mredrejo")
 
-Modesto is Assistant Professor (in Spanish "Profesor Ayudante Doctor") at the Biochemistry Department of the School of Medicine of one of the largest universities in Madrid, the Madrid Autonomous University ([UAM](http://www.uam.es/)).
+Modesto is Assistant Professor (in Spanish "Profesor Contratado Doctor Interino LOU") at the Biochemistry Department of the School of Medicine of one of the largest universities in Madrid, the Universidad Autónoma de Madrid ([UAM](#0)).
 
 Since his PhD thesis, working on DNA repair mechanisms of ASFV (large DNA virus), he has been very interested in DNA replication and repair mechanisms and how these mechanisms evolved. After that, he moved to the [Murat Saparbaev's lab](https://www.gustaveroussy.fr/en/mechanisms-dna-repair-and-carcinogenesis-lab-members) at the Gustave Roussy Institute (Villejuif, nearby Paris) to work on *Base Excision Repair* enzymes. Then, in 2011, he moved back to Madrid as Postdoc and later on Senior Research Associate in the Margarita Salas' lab at the Molecular Biology Center ([CBM](https://www.cbm.uam.es/en/)).
 
@@ -22,7 +26,7 @@ Juan is a very experienced researcher in genetics and molecular biology of model
 
 Esme is an expert molecular microbiologist from Buenos Aires. She is highly interested in pipolins diversity and mobilization.
 
-#### Carmen Mayoral Campos (PhD Student, 2019- )[![](figs/tw.png "@karmayoral"){width="14" height="11"}](https://twitter.com/karmayoral)
+#### Carmen Mayoral Campos (PhD Student, 2019- )[{{< iconify ](https://twitter.com/karmayoral)[fa6](https://twitter.com/karmayoral "@karmayoral")[-brands x-twitter >}}](https://twitter.com/karmayoral)
 
 Carmen is graduated in Biology and MSc in Biomolecules and Cell Dynamics (UAM). She is working in structure-function studies of piPolB, focused on understanding DNA priming capacity of these new DNA polymerases.
 
@@ -30,13 +34,13 @@ Carmen is graduated in Biology and MSc in Biomolecules and Cell Dynamics (UAM). 
 
 Víctor started his BSc thesis working on the biological role of piPolBs in bacteria. His project involved the characterization of a piPolB mutant in the context of a naturally occurring pipolin from *E. coli*. However, during the Covid19 lockdown, he decided to switch into a Bioinformatics project and then enrolled in the Bioinformatics and Computational Biology. During the first year of his Master he got a "Collaboration Fellowship" that will help us to finish the [ExplorePipolin](https://github.com/pipolinlab/ExplorePipolin) pipeline.
 
-#### Diego Duarte Zara (Master Student, 2021-)
-
-Diego joined the lab in 2021 to work on piPolB biological role for his Bachelor's thesis, working with Juan and Carmen. He obtained very interesting results that we will further explore during his Master's thesis during 2023.
-
 #### Nada Znaidi (Visiting PhD student, 2022-)
 
 Nada is a PhD student from Université Tunis El Manar, directed by Prof. Samia Réjiba. Since September 2022, she spends some months ever year in our lab, analyzing the prevalence and genetic structure of pipolins from *E. coli* clinical isolates.
+
+#### Eduardo D. Lozano Escobar (Master Student, 2023-)
+
+Eduardo started his Master's Thesis last September, in which he will deal with novel lactic bacteria genomes. His work will be in collaboration with the laboratory of Dr. Antonia Picón (INIA-CSIC).
 
 # Lab pictures
 
@@ -48,6 +52,10 @@ Nada is a PhD student from Université Tunis El Manar, directed by Prof. Samia R
 
 # Alumni
 
+#### Diego Duarte Zara (Master Student, 2021-2023)
+
+Diego joined the lab in 2021 to work on piPolB biological role for his Bachelor's thesis, working with Juan and Carmen. He obtained very interesting results that we will further explore during his Master's thesis during 2023.
+
 #### Juan Carlos Martín Esteban (MSc Student, 2020-2022)
 
 #### Alejandro Serrano Sánchez (BSc Thesis, 2022)
@@ -56,7 +64,7 @@ Nada is a PhD student from Université Tunis El Manar, directed by Prof. Samia R
 
 Carlos earned an MSc in Virology and he is interested in molecular biology, virology, biochemistry, structural biology and biotechnological application of virus. He carried out his PhD thesis working on the study of Translesion Synthesis capacity of B-family DNA polymerases also can carry out a faithful and processive DNA replication. He also performing structural-function studies and analysis of the influence of metal cofactor during the process.
 
-Find him on [Researchgate](https://www.researchgate.net/profile/Carlos-Ordonez-4), [![](figs/tw.png "@carlosdoc"){width="14" height="11"}](https://twitter.com/carlosdoc) [\@CarlosDOC\_](https://twitter.com/CarlosDOC_) or by e-mail: [cordonez\@cbm.csic.es](mailto:cordonez@cbm.csic.es)
+Find him on [Researchgate](https://www.researchgate.net/profile/Carlos-Ordonez-4), [{{< iconify fa6-brands x-twitter >}}](https://twitter.com/carlosdoc "@CarlosDOC") or by e-mail: [cordonez\@cbm.csic.es](mailto:cordonez@cbm.csic.es)
 
 #### Mario Rodríguez Mestre (PhD Student, 2020-2021 )
 
