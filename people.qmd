@@ -34,13 +34,19 @@ Carmen is graduated in Biology and MSc in Biomolecules and Cell Dynamics (UAM). 
 
 Víctor started his BSc thesis working on the biological role of piPolBs in bacteria. His project involved the characterization of a piPolB mutant in the context of a naturally occurring pipolin from *E. coli*. However, during the Covid19 lockdown, he decided to switch into a Bioinformatics project and then enrolled in the Bioinformatics and Computational Biology. During the first year of his Master he got a "Collaboration Fellowship" that will help us to finish the [ExplorePipolin](https://github.com/pipolinlab/ExplorePipolin) pipeline.
 
-#### Nada Znaidi (Visiting PhD student, 2022-)
+#### Alba Lozano (Undergrad TFG, 2023-)
 
-Nada is a PhD student from Université Tunis El Manar, directed by Prof. Samia Réjiba. Since September 2022, she spends some months ever year in our lab, analyzing the prevalence and genetic structure of pipolins from *E. coli* clinical isolates.
+Alba started his Undergrad Project (TFG) last October. She's Fourth Year Student from Biology Degree at UCM (Universidad Complutense de Madrid).
+
+She is working in the characterization of a new DNA polymerase, the viral YerA41 PolA (see the [Paper](https://pubmed.ncbi.nlm.nih.gov/35357498/) by our collaborator Mikael Skurnik). We are exited to see how her project will open new research lines in the lab.
 
 #### Eduardo D. Lozano Escobar (Master Student, 2023-)
 
 Eduardo started his Master's Thesis last September, in which he will deal with novel lactic bacteria genomes. His work will be in collaboration with the laboratory of Dr. Antonia Picón (INIA-CSIC).
+
+#### Rodrigo de la LLave (Undergrad TFG, 2023-)
+
+Rodrigo will work with Juan to develop the next step in assessing the biological role of piPolB in the context of diverse *E. coli* systems.
 
 # Lab pictures
 
@@ -51,6 +57,10 @@ Eduardo started his Master's Thesis last September, in which he will deal with n
 ![The lab in September 2021](figs/IMG-4890.jpg "R'n'R lab in September 2021"){fig-alt="R'n'R lab in September 2021"}
 
 # Alumni
+
+#### Nada Znaidi (Visiting PhD student, 2022-2023)
+
+Nada is a PhD student from Université Tunis El Manar, directed by Prof. Samia Réjiba. Since September 2022, she spendt some months in 2022 and 2023 in our lab, analyzing the prevalence and genetic structure of pipolins from *E. coli* clinical isolates.
 
 #### Diego Duarte Zara (Master Student, 2021-2023)
 
