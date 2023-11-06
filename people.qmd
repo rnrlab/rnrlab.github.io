@@ -26,13 +26,15 @@ Juan is a very experienced researcher in genetics and molecular biology of model
 
 Esme is an expert molecular microbiologist from Buenos Aires. She is highly interested in pipolins diversity and mobilization.
 
-#### Carmen Mayoral Campos (PhD Student, 2019- )[{{< iconify](https://twitter.com/karmayoral)[fa6](https://twitter.com/karmayoral "@karmayoral")[-brands x-twitter >}}](https://twitter.com/karmayoral)
+#### Carmen Mayoral Campos (PhD Student, 2019- )[{{< iconify fa6-brands x-twitter >}}](https://twitter.com/karmayoral "@karmayoral")
 
 Carmen is graduated in Biology and MSc in Biomolecules and Cell Dynamics (UAM). She is working in structure-function studies of piPolB, focused on understanding DNA priming capacity of these new DNA polymerases.
 
 #### Víctor Mateo Cáceres (PhD student, 2019-)
 
 Víctor started his BSc thesis working on the biological role of piPolBs in bacteria. His project involved the characterization of a piPolB mutant in the context of a naturally occurring pipolin from *E. coli*. However, during the Covid19 lockdown, he decided to switch into a Bioinformatics project and then enrolled in the Bioinformatics and Computational Biology. During the first year of his Master he got a "Collaboration Fellowship" that will help us to finish the [ExplorePipolin](https://github.com/pipolinlab/ExplorePipolin) pipeline.
+
+His PhD project focus in the phylogenetic and functional characterizacion of pipolins, spanning computational and "wet lab" approaches.
 
 #### Alba Lozano (Undergrad TFG, 2023-)
 
