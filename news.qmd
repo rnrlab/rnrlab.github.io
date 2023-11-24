@@ -7,11 +7,15 @@ toc-depth: 2
 
 ## Papers, Blog posts, news
 
+### November 23, 2023 - Modesto Promoted to PPL (Associate Professor)
+
+We are happy to share that our PI was promoted to "Profesor Permanente Laboral", a permanent position in teaching and research. 🍾🍾
+
 ### August 21, 2023 - New Paper Alert!
 
 It took some time, but our new method for whole genome and metagenomes DNA amplification is just published in **NAR Genomics and Bioinformatics**: <https://academic.oup.com/nargab/article/5/3/lqad073/7246555>
 
-![](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nargab/5/3/10.1093_nargab_lqad073/1/m_lqad073figgra1.jpeg?Expires=1695647300&Signature=KrucXdzIwUHdIZzTa9aCpeko2dhtNSugp6urw5vMikF5tMtsDOU3OeZDLSB8sbt9I4gg42DXtyv3nNNeRY4KldKiUN7kiHfmPm~ZM56CPfxGl2Wv~lKzIwFMf~fyWaIELsa-OTBU9Xv5f7~jjdLunFQ~Inqrioo1zA3iF0zhONTkqlNbcmrEwXzWDbhq2jXDvUyJRuJTY9-wbQ3Z4mYBz6Ofrv~NcGdZU7mWyarF1Qfktl84l1jzChyDiPuGRuxaJ-i68FLbVRD0EVK0ZgIGzgvKjsO57hCtafp1ou7WxSfhfp8sFNtoXSLBb87OApe87pd3vSRR8M7Jn-iOjt7v7Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA){fig-align="center"}
+![](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nargab/5/3/10.1093_nargab_lqad073/1/lqad073figgra1.jpeg?Expires=1703854965&Signature=S5kKS5YGkU4ifyNsNobtrHEK2b9JFEYAe-hLotqbUJ32ns1lnQRf-v4J1U9mtyysBkEG2Zi6l2Xx-iHYM0LkbiNlxcSngXgX9D~2sJxKnfV0bT~~76pvr~UjBvoTSwN~4ZG2Io8ePeZEgSqlS2ohmQcjf6REHPn4YGzs81oXUlxl8SCzV5ZCydQ6snruAnWkvxE2uQ7xkij~A3HQsI4I-Dt0tl4~c23inW3CEY9MZqmCWopKvyUZ2iDQgRncxacFI4fmSMNSjDgVKbWmSwcW6TZ8TuoZhuUaeYmtS3LBF3HAnZEjQ77Jz-KwZe0JroI9Ic9Yrx~8YhJRqO-5f5LcxQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA){fig-align="center"}
 
 This work was led by [\@CarlosDOC\_](https://twitter.com/CarlosDOC_), with the participation of [\@karmayoral](https://twitter.com/karmayoral) from the lab. We were also very fortunate to be able to count on the collaboration of Dr. Conceiçao Egas from [Biocant-CNC](https://cnc.uc.pt/en/people/c-egas) (Portugal).
 
