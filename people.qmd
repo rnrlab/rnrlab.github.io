@@ -10,17 +10,17 @@ date-modified: "`r format(Sys.time(), '%Y-%m-%d')`"
 
 # Current Members
 
-#### Modesto Redrejo Rodríguez (PI, Assistant Professor) [![](figs/orcid.png){width="16"}](https://orcid.org/0000-0003-0014-4162) [![](figs/scopus-logo.png){width="16"}](https://www.scopus.com/authid/detail.uri?authorId=12791769600) [![](figs/rg.png){width="16"}](https://www.researchgate.net/profile/Modesto-Redrejo-Rodriguez) [![](figs/wos.png){width="16"}](https://www.webofscience.com/wos/author/record/D-7247-2012) [{{< iconify fa6-brands x-twitter >}}](https://twitter.com/mredrejo "@mredrejo")
+#### Modesto Redrejo Rodríguez (PI, Associate Professor) [![](figs/orcid.png){width="16"}](https://orcid.org/0000-0003-0014-4162) [![](figs/scopus-logo.png){width="16"}](https://www.scopus.com/authid/detail.uri?authorId=12791769600) [![](figs/rg.png){width="16"}](https://www.researchgate.net/profile/Modesto-Redrejo-Rodriguez) [![](figs/wos.png){width="16"}](https://www.webofscience.com/wos/author/record/D-7247-2012) [{{< iconify fa6-brands x-twitter >}}](https://twitter.com/mredrejo "@mredrejo")
 
-Modesto is Assistant Professor (in Spanish "Profesor Contratado Doctor Interino LOU") at the Biochemistry Department of the School of Medicine of one of the largest universities in Madrid, the Universidad Autónoma de Madrid ([UAM](#0)).
+Modesto is Associate Professor (in Spanish "Profesor Permanente Laboral") at the Biochemistry Department of the School of Medicine of one of the largest universities in Madrid, the Universidad Autónoma de Madrid ([UAM](#0)).
 
-Since his PhD thesis, working on DNA repair mechanisms of ASFV (large DNA virus), he has been very interested in DNA replication and repair mechanisms and how these mechanisms evolved. After that, he moved to the [Murat Saparbaev's lab](https://www.gustaveroussy.fr/en/mechanisms-dna-repair-and-carcinogenesis-lab-members) at the Gustave Roussy Institute (Villejuif, nearby Paris) to work on *Base Excision Repair* enzymes. Then, in 2011, he moved back to Madrid as Postdoc and later on Senior Research Associate in the Margarita Salas' lab at the Molecular Biology Center ([CBM](https://www.cbm.uam.es/en/)).
+Since his PhD thesis, working on DNA repair mechanisms of ASFV (large DNA virus), he has been very interested in DNA replication and repair mechanisms and how these mechanisms evolved. After that, he moved to the [Murat Saparbaev's lab](https://www.gustaveroussy.fr/en/mechanisms-dna-repair-and-carcinogenesis-lab-members) at the Gustave Roussy Institute (Villejuif, nearby Paris) to work on *Base Excision Repair* enzymes. Then, in 2011, he moved back to Madrid as Postdoc and later on Senior Research Associate in the Margarita Salas' lab at the Molecular Biology Center ([CBM](https://www.cbm.uam.es/en/)) where he focused in prokaryotic models of DNA replication. After moving to the UAM in 2018 as Assistant Professor to start the R'n'R Lab, he was promoted to Associate Professor in November 2023.
 
 He is very interested in the use of multidisciplinary approaches, using biochemistry, structural biology, genetics and bioinformatics to deal with biological problems. A full list of Modesto's publications can be found [here](https://www.ncbi.nlm.nih.gov/myncbi/modesto.redrejo%20rodriguez.1/bibliography/public/).
 
 #### Juan J. Arredondo Lamas (Associate Professor)
 
-Juan is a very experienced researcher in genetics and molecular biology of model organisms, particularly Drosophila melanogaster. After several months of sharing the lab with us and providing very interesting "outsider" discussions, he decided to join the crew. He will be very helpful in the students' supervision and focus in the biological role of pipolins.
+Juan is a very experienced researcher in genetics and molecular biology of model organisms, particularly *Drosophila melanogaster*. After several months of sharing the lab with us and providing very interesting "outsider" discussions, he decided to join the crew. He will be very helpful in the students' supervision and focus in the biological role of pipolins.
 
 #### Esmeralda Solar Venero (Postdoc, 2022-)
 
