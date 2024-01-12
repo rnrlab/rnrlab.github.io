@@ -15,7 +15,10 @@ We are happy to share that our PI was promoted to "Profesor Permanente Laboral",
 
 It took some time, but our new method for whole genome and metagenomes DNA amplification is just published in **NAR Genomics and Bioinformatics**: <https://academic.oup.com/nargab/article/5/3/lqad073/7246555>
 
-![](images/m_lqad073figgra1.jpeg)This work was led by [\@CarlosDOC\_](https://twitter.com/CarlosDOC_), with the participation of [\@karmayoral](https://twitter.com/karmayoral) from the lab. We were also very fortunate to be able to count on the collaboration of Dr. Conceiçao Egas from [Biocant-CNC](https://cnc.uc.pt/en/people/c-egas) (Portugal).
+![](images/m_lqad073figgra1.jpeg)
+
+$\\$ 
+This work was led by [\@CarlosDOC\_](https://twitter.com/CarlosDOC_), with the participation of [\@karmayoral](https://twitter.com/karmayoral) from the lab. We were also very fortunate to be able to count on the collaboration of Dr. Conceiçao Egas from [Biocant-CNC](https://cnc.uc.pt/en/people/c-egas) (Portugal).
 
 In this work, we used the [piPolB](polb.html#pipolb) to develop new methods for whole genome and metagenome amplification (WGA). We used the piPolB in two different protocols: (1) piPolB MDA and (2) piMDA, with piPolB in combination with a Φ29 DNA polymerase (Φ29DNAP). In short, the second proved to be a great protocol, outperforming all previously available methods. In particular, our **piMDA** method (piPolB + Φ29DNAP) provides not only high DNA yield but also a very competent and unbiased coverage for [sequences with high GC content]{.underline}, usually the Achilles heel of most MDA methods.
 
