@@ -12,15 +12,6 @@ title-block-banner-color: "#000A8F"
 
 ```
 
-::: {.callout-important icon="false"}
-### **21st August 2023 - New Paper Alert!**
-
-It took some time, but our new method for whole genome and metagenomes DNA amplification is just published in **NAR Genomics and Bioinformatics**: <https://academic.oup.com/nargab/article/5/3/lqad073/7246555>
-
-In this work, we used the [piPolB](polb.html#pipolb) to develop new methods for WGA. We used the piPolB alone and in combination with a Φ29 DNA polymerase, a highly processive DNA polymerase. Remarkably, the latter proved to be a great protocol, outperforming all previously available methods In particular, our piMDA method provides very good and unbiased coverage for sequences with high GC content, usually the Achilles heel of most MDA methods.
-
-This work was led by [\@CarlosDOC\_](https://twitter.com/CarlosDOC_), with the participation of [\@karmayoral](https://twitter.com/karmayoral) from the lab. We were also very fortunate to be able to count on the collaboration of Dr. Conceiçao Egas from [Biocant-CNC](https://cnc.uc.pt/en/people/c-egas) (Portugal).
-:::
 
 # Welcome...
 

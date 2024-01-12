@@ -22,10 +22,6 @@ He is very interested in the use of multidisciplinary approaches, using biochemi
 
 Juan is a very experienced researcher in genetics and molecular biology of model organisms, particularly *Drosophila melanogaster*. After several months of sharing the lab with us and providing very interesting "outsider" discussions, he decided to join the crew. He will be very helpful in the students' supervision and focus in the biological role of pipolins.
 
-#### Esmeralda Solar Venero (Postdoc, 2022-)
-
-Esme is an expert molecular microbiologist from Buenos Aires. She is highly interested in pipolins diversity and mobilization.
-
 #### Carmen Mayoral Campos (PhD Student, 2019- )[{{< iconify fa6-brands x-twitter >}}](https://twitter.com/karmayoral "@karmayoral")
 
 Carmen is graduated in Biology and MSc in Biomolecules and Cell Dynamics (UAM). She is working in structure-function studies of piPolB, focused on understanding DNA priming capacity of these new DNA polymerases.
@@ -60,6 +56,12 @@ Rodrigo will work with Juan to develop the next step in assessing the biological
 
 # Alumni
 
+
+#### Esmeralda Solar Venero (Postdoc, 2022-2023)
+
+Esme is an expert molecular microbiologist from Buenos Aires. Her project was related with pipolins diversity and mobilization.
+She is currently Postdoc Research Assistant in the *[Molecular infection biology](https://www.cnb.csic.es/index.php/es/investigacion/departamentos-de-investigacion/biotecnologia-microbiana/biologia-de-la-infeccion-molecular)* lab @CNB-CSIC.
+
 #### Nada Znaidi (Visiting PhD student, 2022-2023)
 
 Nada is a PhD student from Université Tunis El Manar, directed by Prof. Samia Réjiba. Since September 2022, she spendt some months in 2022 and 2023 in our lab, analyzing the prevalence and genetic structure of pipolins from *E. coli* clinical isolates.
@@ -67,6 +69,7 @@ Nada is a PhD student from Université Tunis El Manar, directed by Prof. Samia R
 #### Diego Duarte Zara (Master Student, 2021-2023)
 
 Diego joined the lab in 2021 to work on piPolB biological role for his Bachelor's thesis, working with Juan and Carmen. He obtained very interesting results that we will further explore during his Master's thesis during 2023.
+He is currently PhD student @CNIC.
 
 #### Juan Carlos Martín Esteban (MSc Student, 2020-2022)
 
@@ -76,13 +79,17 @@ Diego joined the lab in 2021 to work on piPolB biological role for his Bachelor'
 
 Carlos earned an MSc in Virology and he is interested in molecular biology, virology, biochemistry, structural biology and biotechnological application of virus. He carried out his PhD thesis working on the study of Translesion Synthesis capacity of B-family DNA polymerases also can carry out a faithful and processive DNA replication. He also performing structural-function studies and analysis of the influence of metal cofactor during the process.
 
-Find him on [Researchgate](https://www.researchgate.net/profile/Carlos-Ordonez-4), [{{< iconify fa6-brands x-twitter >}}](https://twitter.com/carlosdoc "@CarlosDOC") or by e-mail: [cordonez\@cbm.csic.es](mailto:cordonez@cbm.csic.es)
+Find him on [Researchgate](https://www.researchgate.net/profile/Carlos-Ordonez-4), [{{< iconify fa6-brands x-twitter >}}](https://twitter.com/carlosdoc "@CarlosDOC") or by e-mail: [cordonez\@cbm.csic.es](mailto:cordonez@cbm.csic.es)
+
+He is currently Postdoc at the [Synthetic Biology lab](https://www.cicbiogune.es/people/raulpjc) @CIC-BioGune
 
 #### Mario Rodríguez Mestre (PhD Student, 2020-2021 )
 
-#### ​Liubov Chuprikova (Bioinformatics MSc, 2019-2020)
+#### Liubov Chuprikova (Bioinformatics MSc, 2019-2020)
 
 Liuba developed [ExplorePipolin](https://github.com/pipolinlab/ExplorePipolin), a pipeline for the annotation and characterization of pipolins. Her Master thesis was carried out under the joint supervision of Modesto and María de Toro, head of the [Genomics and Bioinformatics](https://www.cibir.es/es/plataformas-tecnologicas-y-servicios/genomica-y-bioinformatica) facility of CIBIR, and an expert in the annotation of prokaryotic genomes and mobilome. We are grateful to Liuba's help after her Thesis, which allowed us to [publish ExplorePipolin in 2022](https://academic.oup.com/bioinformaticsadvances/article/2/1/vbac056/6659502?login=false).
+
+She is currently PhD student at the [Division of Virus-associated carcinogenesis](https://www.dkfz.de/en/virus-assoziierte-karzinogenese/index.php) @DKFZ
 
 #### Irene Díaz García (BSc Student, 2020-2021)
 
@@ -90,4 +97,6 @@ Liuba developed [ExplorePipolin](https://github.com/pipolinlab/ExplorePipolin), 
 
 #### Ana Lechuga Mateo (MSc and PhD Student, 2016-2020)
 
-Ana carried out her MSc in Virology in Salas' lab under Modesto's supervision and then she decided to stay in the lab for Ph.D. She worked in two different but complementary aspects of Bam35 tectivirus biology. First, she is characterizing viral DNA binding proteins and their role in TP-DNA genome replication. Moreover, she has been the main responsible for the [VirHost-omics](https://mredrejo.wixsite.com/rnrlab) project, using a Y2H screen and next-generation sequence to study virus-host relationships by high-through
+Ana carried out her MSc in Virology in Salas' lab under Modesto's supervision and then she decided to stay in the lab for Ph.D. She worked in two different but complementary aspects of Bam35 tectivirus biology. First, she is characterizing viral DNA binding proteins and their role in TP-DNA genome replication. Moreover, she has been the main responsible for the [VirHost-omics](https://mredrejo.wixsite.com/rnrlab) project, using a Y2H screen and next-generation sequence to study virus-host relationships by high-through.
+
+She is currently Postdoc at the [Laboratory of Gene Technology](https://www.biw.kuleuven.be/biosyst/a2h/LoGT) @KU-Leuven
