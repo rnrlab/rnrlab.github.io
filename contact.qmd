@@ -4,7 +4,11 @@ date: "`r format(Sys.time(), '%Y-%m-%d (%H:%M h)')`"
 toc: TRUE
 ---
 
-## Biochemistry Department @UAM Medicine Campus (Madrid)
+```{r}
+
+```
+
+## Biochemistry Department @ UAM Medicine Campus (Madrid)
 
 ![](images/MedicinaMapa-01.jpg)
 

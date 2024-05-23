@@ -1,9 +1,19 @@
 ---
 title: "Lab news"
-
+date: "January 16, 2023"
+author: 
+  - name: Modesto
+    url: https://rnrlab.github.io
+    affiliation: Department of Biochemistry, UAM
+    affiliation_url: https://www.uam.es/
+date-modified: "`r format(Sys.time(), '%Y-%m-%d (%H:%M h)')`"
 toc: TRUE
 toc-depth: 3
 ---
+
+```{r}
+
+```
 
 [![Publications cloud from scholargoggler.com](images/wordcloud.png){fig-alt="Publications cloud from scholargoggler.com"}](https://scholargoggler.com/)
 

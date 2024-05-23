@@ -18,6 +18,10 @@ toc: TRUE
 
 ![](images/ConcreteMessyKob-size_restricted.gif "Under construction...")
 
+```{r}
+
+```
+
 ::: callout-warning
 ## Watch out! This page is still being synthesized!
 

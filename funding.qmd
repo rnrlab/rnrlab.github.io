@@ -5,6 +5,10 @@ date-modified: "`r format(Sys.time(), '%Y-%m-%d (%H:%M h)')`"
 toc: FALSE
 ---
 
+```{r}
+
+```
+
 Although we always acknowledge our funding in publications and presentations, we also want to thank again our financiers and keep record of lab grants in this site. Unless otherwise stated, Modesto was the principal investigator of the grants below.
 
 # Functional characterization of primer-independent DNA polymerases in the context of genotoxic stress in bacteria
