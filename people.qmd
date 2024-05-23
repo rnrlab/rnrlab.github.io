@@ -30,7 +30,7 @@ Carmen is graduated in Biology and MSc in Biomolecules and Cell Dynamics (UAM). 
 
 Víctor started his BSc thesis working on the biological role of piPolBs in bacteria. His project involved the characterization of a piPolB mutant in the context of a naturally occurring pipolin from *E. coli*. However, during the Covid19 lockdown, he decided to switch into a Bioinformatics project and then enrolled in the Bioinformatics and Computational Biology. During the first year of his Master he got a "Collaboration Fellowship" that will help us to finish the [ExplorePipolin](https://github.com/pipolinlab/ExplorePipolin) pipeline.
 
-His PhD project focus in the phylogenetic and functional characterizacion of pipolins, spanning computational and "wet lab" approaches.
+His PhD project focus in the phylogenetic and functional characterization of pipolins, combining computational and "wet lab" approaches.
 
 #### Alba Lozano (Undergrad TFG, 2023-)
 

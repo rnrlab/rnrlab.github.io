@@ -8,7 +8,7 @@ toc: TRUE
 
 ```
 
-## Biochemistry Department @ UAM Medicine Campus (Madrid)
+## Biochemistry Department \@ UAM Medicine Campus (Madrid)
 
 ![](images/MedicinaMapa-01.jpg)
 
