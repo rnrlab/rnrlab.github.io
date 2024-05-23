@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,12 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -55,6 +60,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -65,27 +71,48 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="R’n’R lab - Lab news">
-<meta property="og:image" content="https://rnrlab.github.io/images/wordcloud.png">
-<meta property="og:site-name" content="R'n'R lab">
-<meta property="og:image:height" content="213">
-<meta property="og:image:width" content="666">
+<meta property="og:site_name" content="R'n'R lab">
 <meta name="twitter:title" content="R’n’R lab - Lab news">
-<meta name="twitter:image" content="https://rnrlab.github.io/images/wordcloud.png">
 <meta name="twitter:site" content="@RnR_Lab">
-<meta name="twitter:image-height" content="213">
-<meta name="twitter:image-width" content="666">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./figs/rnr_logo.png" alt="" class="navbar-logo">
     </a>
@@ -100,56 +127,56 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="./polb.html" rel="" target="">
+    <a class="dropdown-item" href="./polb.html">
  <span class="dropdown-text">DNA polymerases</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mge.html" rel="" target="">
+    <a class="dropdown-item" href="./mge.html">
  <span class="dropdown-text">Mobile Genetic Elements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mda.html" rel="" target="">
+    <a class="dropdown-item" href="./mda.html">
  <span class="dropdown-text">DNA polymerases in biotechnology</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./tecti.html" rel="" target="">
+    <a class="dropdown-item" href="./tecti.html">
  <span class="dropdown-text">Tectiviruses as a model</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./people.html" rel="" target="">
- <span class="menu-text">People</span></a>
+    <a class="nav-link" href="./people.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./funding.html" rel="" target="">
- <span class="menu-text">Funding</span></a>
+    <a class="nav-link" href="./funding.html"> 
+<span class="menu-text">Funding</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./news.html" rel="" target="" aria-current="page">
- <span class="menu-text">Lab news</span></a>
+    <a class="nav-link active" href="./news.html" aria-current="page"> 
+<span class="menu-text">Lab news</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html" rel="" target="">
- <span class="menu-text">Contact us</span></a>
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact us</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -161,8 +188,20 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
+  <ul>
+  <li><a href="#papers-blog-posts-news" id="toc-papers-blog-posts-news" class="nav-link active" data-scroll-target="#papers-blog-posts-news">Papers, Blog posts, news…</a>
   <ul class="collapse">
-  <li><a href="#papers-blog-posts-news" id="toc-papers-blog-posts-news" class="nav-link active" data-scroll-target="#papers-blog-posts-news">Papers, Blog posts, news…</a></li>
+  <li><a href="#may-23-2024---preprint-alert" id="toc-may-23-2024---preprint-alert" class="nav-link" data-scroll-target="#may-23-2024---preprint-alert">May 23, 2024 - Preprint Alert!</a></li>
+  <li><a href="#november-23-2023---modesto-promoted-to-ppl-associate-professor" id="toc-november-23-2023---modesto-promoted-to-ppl-associate-professor" class="nav-link" data-scroll-target="#november-23-2023---modesto-promoted-to-ppl-associate-professor">November 23, 2023 - Modesto Promoted to PPL (Associate Professor)</a></li>
+  <li><a href="#august-21-2023---new-paper-alert" id="toc-august-21-2023---new-paper-alert" class="nav-link" data-scroll-target="#august-21-2023---new-paper-alert">August 21, 2023 - New Paper Alert!</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#june-15-2023---european-patent-application-for-pipolb-granted" id="toc-june-15-2023---european-patent-application-for-pipolb-granted" class="nav-link" data-scroll-target="#june-15-2023---european-patent-application-for-pipolb-granted">June 15, 2023 - European patent application for piPolB granted!</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
+  <li><a href="#may-29-2023---new-paper-alert" id="toc-may-29-2023---new-paper-alert" class="nav-link" data-scroll-target="#may-29-2023---new-paper-alert">May 29, 2023 - New Paper Alert</a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"></a></li>
+  <li><a href="#jul-23-2022---civis-summer-school-bioinformatics-for-non-bioinformaticians." id="toc-jul-23-2022---civis-summer-school-bioinformatics-for-non-bioinformaticians." class="nav-link" data-scroll-target="#jul-23-2022---civis-summer-school-bioinformatics-for-non-bioinformaticians.">Jul 23, 2022 - CIVIS Summer School: Bioinformatics for non bioinformaticians.</a></li>
+  <li><a href="#jul-27-2020---pipolins-provided-an-opportunity-to-study-diversity-and-variability-of-self-replicative-genetic-mobile-elements-in-circulating-bacteria" id="toc-jul-27-2020---pipolins-provided-an-opportunity-to-study-diversity-and-variability-of-self-replicative-genetic-mobile-elements-in-circulating-bacteria" class="nav-link" data-scroll-target="#jul-27-2020---pipolins-provided-an-opportunity-to-study-diversity-and-variability-of-self-replicative-genetic-mobile-elements-in-circulating-bacteria">Jul 27, 2020 - Pipolins provided an opportunity to study diversity and variability of self-replicative genetic mobile elements in circulating bacteria</a></li>
+  </ul></li>
   <li><a href="#our-x-timeline" id="toc-our-x-timeline" class="nav-link" data-scroll-target="#our-x-timeline">Our <strong>X</strong> timeline</a></li>
   </ul>
 </nav>
@@ -185,16 +224,42 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="https://scholargoggler.com/"><img src="images/wordcloud.png" class="img-fluid figure-img" alt="Publications cloud from scholargoggler.com"></a></p>
-<figcaption class="figure-caption">Publications cloud from scholargoggler.com</figcaption>
+<figcaption>Publications cloud from scholargoggler.com</figcaption>
 </figure>
 </div>
 <section id="papers-blog-posts-news" class="level2">
 <h2 class="anchored" data-anchor-id="papers-blog-posts-news">Papers, Blog posts, news…</h2>
+<section id="may-23-2024---preprint-alert" class="level3">
+<h3 class="anchored" data-anchor-id="may-23-2024---preprint-alert">May 23, 2024 - Preprint Alert!</h3>
+<p>We just deposited a terrific manuscript by Víctor on bioRxiv!</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="https://www.biorxiv.org/content/10.1101/2024.05.22.595293">Pipolins are bimodular platforms that maintain a reservoir of defense systems exchangeable with various bacterial genetic mobile elements</a>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<section id="what-does-it-mean" class="level4">
+<h4 class="anchored" data-anchor-id="what-does-it-mean">What does it mean?</h4>
+<p>MGEs promote the spread of antimicrobial resistance, virulence, and defense genes, contributing to bacterial adaptation via genome dynamics. Several groups of plasmids and viruses encode mechanisms for autonomous or semi-autonomous DNA transfer. However, other MGEs also contribute to the high gene flux in bacterial genomes, relying on these elements or unknown mechanisms for mobilization, hindering analysis of their role in genome plasticity. These elements have been recently referred to as “hitchhikers” and can include mobilizable and non-mobilizable plasmids, and integrative elements (<a href="https://doi.org/10.32942/X2R89M">Ares-Arroyo et al.&nbsp;2024</a>.).</p>
+<p>Pipolins would possible be among the more enigmatic hitchers GMEs. Some years ago, we identified these elements as integrative elements with a patchy distribution in most major bacteria phyla and also in some mitochondria genomes. Here, in order to unveil the real extent of pipolins in Bacteria and analyze their diversity, Víctor performed a comprehensive screening of pipolins in bacterial genomes, analyzing their structure, gene content, and exchange rates with other MGEs. Using our tool <a href="mge.html#explorepipolin">ExplorePipolin</a> (<a href="https://pubmed.ncbi.nlm.nih.gov/36699382/">Chuprikova et al.&nbsp;2022</a>), Pipolins were detected across bacterial phyla, being particularly abundant in Gammaproteobacteria (mainly in <em>Escherichia</em> and <em>Vibrio</em>), and also prevalent in several distant genera, such as <em>Aeromonas</em>, <em>Limosilactobacillus</em> or <em>Pseudosulfitobacter</em>. Most pipolins were integrative elements with direct repeats, sharing tRNA and genomic loci with other MGEs. Recombinase switching or loss allowed novel insertion sites and transition between integrative mobile elements (IME-pipolins) and plasmids (plasmid-pipolins).</p>
+<p>Previous studies identified restriction-modification systems and other nucleic acid metabolism proteins in pipolins, alongside numerous genes with unknown functions. Here, we show that pipolins are enriched for defense systems, with over 15% of genes annotated by <a href="https://github.com/padlocbio/padloc">PADLOC</a>, compared to 1.5% and 3% in plasmids and conjugative integrative mobile genetic elements (ciMGEs), respectively. The pipolin structure, with minimal core genes and a large cargo module of defense genes, resembles other defense islands recently reported. Moreover, he performed the most comprehensive weighted gene relatedness ratio (wGRR, <a href="https://pubmed.ncbi.nlm.nih.gov/29905872/">Cury et al.&nbsp;2018</a>) analysis between integrated defense islands and extrachromosomal elements, disclosing frequent gene exchange between pipolins, phages, and ciMGEs, suggesting not only high abundance but also extensive horizontal transfer of defense genes.</p>
+<p>Altogether, this study provides a detailed characterization of pipolins and proposes a two-speed mechanism for diversification and mobilization of bacterial defense genes at the population level. Thus, we hypothesize that pipolins exemplify a class of defense “hitchhikers” can accumulate quickly a large orthogonal reservoir of defense systems, favored by their parasitic mobility. The interaction with new, autonomous MGEs might trigger these defense factors or, when immune, would eventually allow the acquisition of new defense genes and potentially mobilize the “hitchhikers”, suggesting the existence of complementary defense gene flow mechanisms in bacteria populations.</p>
+</section>
+</section>
 <section id="november-23-2023---modesto-promoted-to-ppl-associate-professor" class="level3">
 <h3 class="anchored" data-anchor-id="november-23-2023---modesto-promoted-to-ppl-associate-professor">November 23, 2023 - Modesto Promoted to PPL (Associate Professor)</h3>
 <p>We are happy to share that our PI was promoted to “Profesor Permanente Laboral”, a permanent position in teaching and research. 🍾🍾</p>
@@ -229,7 +294,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="jul-23-2022---civis-summer-school-bioinformatics-for-non-bioinformaticians." class="level3">
 <h3 class="anchored" data-anchor-id="jul-23-2022---civis-summer-school-bioinformatics-for-non-bioinformaticians.">Jul 23, 2022 - CIVIS Summer School: Bioinformatics for non bioinformaticians.</h3>
-<p>Modesto was one of the lectures in this great summer school <a href="https://twitter.com/uni_tue">@uni_tue</a>, hosted by Profs. Thorsten Schmidt and Andre F. Martins. </p><div id="tweet-63737"></div><script>tweet={"url":"https:\/\/twitter.com\/CoE_iFIT\/status\/1550769293989740546","author_name":"Visualizing and Targeting Cancer Stress","author_url":"https:\/\/twitter.com\/CoE_iFIT","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYesterday ended \u003Ca href=\"https:\/\/twitter.com\/civis_eu?ref_src=twsrc%5Etfw\"\u003E@civis_eu\u003C\/a\u003E summer school week \u003Ca href=\"https:\/\/twitter.com\/MedTuebingen?ref_src=twsrc%5Etfw\"\u003E@MedTuebingen\u003C\/a\u003E &quot;\u003Ca href=\"https:\/\/twitter.com\/hashtag\/Bioinformatics?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#Bioinformatics\u003C\/a\u003E for non-bioinformaticians&quot; It was awesome having so excellent \u003Ca href=\"https:\/\/twitter.com\/hashtag\/students?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#students\u003C\/a\u003E &amp; professors participating in the various workshops from all over \u003Ca href=\"https:\/\/twitter.com\/hashtag\/Europe?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#Europe\u003C\/a\u003E. Big thank you \u003Ca href=\"https:\/\/twitter.com\/TheMartinsLab?ref_src=twsrc%5Etfw\"\u003E@TheMartinsLab\u003C\/a\u003E, Thorsten &amp; everyone! \u003Ca href=\"https:\/\/t.co\/lcJbxwUc6U\"\u003Epic.twitter.com\/lcJbxwUc6U\u003C\/a\u003E\u003C\/p\u003E&mdash; Visualizing and Targeting Cancer Stress (@CoE_iFIT) \u003Ca href=\"https:\/\/twitter.com\/CoE_iFIT\/status\/1550769293989740546?ref_src=twsrc%5Etfw\"\u003EJuly 23, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-63737").innerHTML = tweet["html"];</script><p></p>
+<p>Modesto was one of the lectures in this great summer school <a href="https://twitter.com/uni_tue">@uni_tue</a>, hosted by Profs. Thorsten Schmidt and Andre F. Martins. </p><div id="tweet-51342"></div><script>tweet={"url":"https:\/\/twitter.com\/CoE_iFIT\/status\/1550769293989740546","author_name":"Visualizing and Targeting Cancer Stress","author_url":"https:\/\/twitter.com\/CoE_iFIT","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYesterday ended \u003Ca href=\"https:\/\/twitter.com\/civis_eu?ref_src=twsrc%5Etfw\"\u003E@civis_eu\u003C\/a\u003E summer school week \u003Ca href=\"https:\/\/twitter.com\/MedTuebingen?ref_src=twsrc%5Etfw\"\u003E@MedTuebingen\u003C\/a\u003E &quot;\u003Ca href=\"https:\/\/twitter.com\/hashtag\/Bioinformatics?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#Bioinformatics\u003C\/a\u003E for non-bioinformaticians&quot; It was awesome having so excellent \u003Ca href=\"https:\/\/twitter.com\/hashtag\/students?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#students\u003C\/a\u003E &amp; professors participating in the various workshops from all over \u003Ca href=\"https:\/\/twitter.com\/hashtag\/Europe?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#Europe\u003C\/a\u003E. Big thank you \u003Ca href=\"https:\/\/twitter.com\/TheMartinsLab?ref_src=twsrc%5Etfw\"\u003E@TheMartinsLab\u003C\/a\u003E, Thorsten &amp; everyone! \u003Ca href=\"https:\/\/t.co\/lcJbxwUc6U\"\u003Epic.twitter.com\/lcJbxwUc6U\u003C\/a\u003E\u003C\/p\u003E&mdash; Visualizing and Targeting Cancer Stress (@CoE_iFIT) \u003Ca href=\"https:\/\/twitter.com\/CoE_iFIT\/status\/1550769293989740546?ref_src=twsrc%5Etfw\"\u003EJuly 23, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-51342").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="jul-27-2020---pipolins-provided-an-opportunity-to-study-diversity-and-variability-of-self-replicative-genetic-mobile-elements-in-circulating-bacteria" class="level3">
 <h3 class="anchored" data-anchor-id="jul-27-2020---pipolins-provided-an-opportunity-to-study-diversity-and-variability-of-self-replicative-genetic-mobile-elements-in-circulating-bacteria">Jul 27, 2020 - Pipolins provided an opportunity to study diversity and variability of self-replicative genetic mobile elements in circulating bacteria</h3>
@@ -324,10 +389,34 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/rnrlab\.github\.io");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -337,8 +426,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -350,7 +448,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -394,6 +615,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -419,6 +641,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -476,28 +724,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/rnrlab\.github\.io");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          // default icon
-          link.classList.add("external");
-      }
-    }
 });
 </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright 2023, Modesto Redrejo Rodríguez</div>   
+    <div class="nav-footer-left">
+<p>Copyright 2023, Modesto Redrejo Rodríguez</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
@@ -510,12 +744,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://twitter.com/RnR_Lab"><iconify-icon inline="" icon="fa6-brands:x-twitter"></iconify-icon></a>
+    <a class="nav-link" href="https://twitter.com/RnR_Lab">
+<p><iconify-icon inline="" icon="fa6-brands:x-twitter"></iconify-icon></p>
+</a>
   </li>  
 </ul>
     </div>
   </div>
 </footer>
+
 
 
 

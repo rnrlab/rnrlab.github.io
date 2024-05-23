@@ -2,12 +2,30 @@
 title: "Lab news"
 
 toc: TRUE
-toc-depth: 2
+toc-depth: 3
 ---
 
 [![Publications cloud from scholargoggler.com](images/wordcloud.png){fig-alt="Publications cloud from scholargoggler.com"}](https://scholargoggler.com/)
 
 ## Papers, Blog posts, news...
+
+### May 23, 2024 - Preprint Alert!
+
+We just deposited a terrific manuscript by Víctor on bioRxiv!
+
+::: {.callout-note icon="true"}
+### [Pipolins are bimodular platforms that maintain a reservoir of defense systems exchangeable with various bacterial genetic mobile elements](https://www.biorxiv.org/content/10.1101/2024.05.22.595293)
+:::
+
+#### What does it mean?
+
+MGEs promote the spread of antimicrobial resistance, virulence, and defense genes, contributing to bacterial adaptation via genome dynamics. Several groups of plasmids and viruses encode mechanisms for autonomous or semi-autonomous DNA transfer. However, other MGEs also contribute to the high gene flux in bacterial genomes, relying on these elements or unknown mechanisms for mobilization, hindering analysis of their role in genome plasticity. These elements have been recently referred to as “hitchhikers” and can include mobilizable and non-mobilizable plasmids, and integrative elements ([Ares-Arroyo et al. 2024](https://doi.org/10.32942/X2R89M).).
+
+Pipolins would possible be among the more enigmatic hitchers GMEs. Some years ago, we identified these elements as integrative elements with a patchy distribution in most major bacteria phyla and also in some mitochondria genomes. Here, in order to unveil the real extent of pipolins in Bacteria and analyze their diversity, Víctor performed a comprehensive screening of pipolins in bacterial genomes, analyzing their structure, gene content, and exchange rates with other MGEs. Using our tool [ExplorePipolin](mge.html#explorepipolin) ([Chuprikova et al. 2022](https://pubmed.ncbi.nlm.nih.gov/36699382/)), Pipolins were detected across bacterial phyla, being particularly abundant in Gammaproteobacteria (mainly in *Escherichia* and *Vibrio*), and also prevalent in several distant genera, such as *Aeromonas*, *Limosilactobacillus* or *Pseudosulfitobacter*. Most pipolins were integrative elements with direct repeats, sharing tRNA and genomic loci with other MGEs. Recombinase switching or loss allowed novel insertion sites and transition between integrative mobile elements (IME-pipolins) and plasmids (plasmid-pipolins).
+
+Previous studies identified restriction-modification systems and other nucleic acid metabolism proteins in pipolins, alongside numerous genes with unknown functions. Here, we show that pipolins are enriched for defense systems, with over 15% of genes annotated by [PADLOC](https://github.com/padlocbio/padloc), compared to 1.5% and 3% in plasmids and conjugative integrative mobile genetic elements (ciMGEs), respectively. The pipolin structure, with minimal core genes and a large cargo module of defense genes, resembles other defense islands recently reported. Moreover, he performed the most comprehensive weighted gene relatedness ratio (wGRR, [Cury et al. 2018](https://pubmed.ncbi.nlm.nih.gov/29905872/)) analysis between integrated defense islands and extrachromosomal elements, disclosing frequent gene exchange between pipolins, phages, and ciMGEs, suggesting not only high abundance but also extensive horizontal transfer of defense genes.
+
+Altogether, this study provides a detailed characterization of pipolins and proposes a two-speed mechanism for diversification and mobilization of bacterial defense genes at the population level. Thus, we hypothesize that pipolins exemplify a class of defense "hitchhikers" can accumulate quickly a large orthogonal reservoir of defense systems, favored by their parasitic mobility. The interaction with new, autonomous MGEs might trigger these defense factors or, when immune, would eventually allow the acquisition of new defense genes and potentially mobilize the “hitchhikers”, suggesting the existence of complementary defense gene flow mechanisms in bacteria populations.
 
 ### November 23, 2023 - Modesto Promoted to PPL (Associate Professor)
 
