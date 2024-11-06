@@ -1,19 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rnrlab.github.io/funding.html</loc>
-    <lastmod>2024-05-23T14:57:28.436Z</lastmod>
+    <loc>https://rnrlab.github.io/index.html</loc>
+    <lastmod>2024-05-23T15:38:05.413Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnrlab.github.io/people.html</loc>
+    <lastmod>2024-11-06T11:28:20.084Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnrlab.github.io/mda.html</loc>
+    <lastmod>2024-05-23T14:53:33.154Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnrlab.github.io/news.html</loc>
+    <lastmod>2024-11-06T11:28:27.376Z</lastmod>
   </url>
   <url>
     <loc>https://rnrlab.github.io/contact.html</loc>
     <lastmod>2024-05-23T15:42:45.707Z</lastmod>
   </url>
   <url>
-    <loc>https://rnrlab.github.io/news.html</loc>
-    <lastmod>2024-05-23T14:55:09.208Z</lastmod>
+    <loc>https://rnrlab.github.io/teaching.html</loc>
+    <lastmod>2024-01-12T11:55:14.739Z</lastmod>
   </url>
   <url>
-    <loc>https://rnrlab.github.io/people.html</loc>
-    <lastmod>2024-05-23T15:43:46.204Z</lastmod>
+    <loc>https://rnrlab.github.io/polb.html</loc>
+    <lastmod>2024-05-23T14:52:32.875Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnrlab.github.io/tecti.html</loc>
+    <lastmod>2024-05-23T14:53:06.189Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnrlab.github.io/mge.html</loc>
+    <lastmod>2024-05-23T14:52:27.220Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rnrlab.github.io/funding.html</loc>
+    <lastmod>2024-05-23T14:57:28.436Z</lastmod>
   </url>
 </urlset>
