@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Modesto">
 <meta name="dcterms.date" content="2023-01-05">
 
-<title>R’n’R lab - DNA polymerases</title>
+<title>DNA polymerases – R’n’R lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,10 +72,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="R’n’R lab - DNA polymerases">
+<meta property="og:title" content="DNA polymerases – R’n’R lab">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="R'n'R lab">
-<meta name="twitter:title" content="R’n’R lab - DNA polymerases">
+<meta name="twitter:title" content="DNA polymerases – R’n’R lab">
 <meta name="twitter:description" content="">
 <meta name="twitter:site" content="@RnR_Lab">
 <meta name="twitter:card" content="summary">
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
@@ -150,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -170,6 +170,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#engineered-enzymes" id="toc-engineered-enzymes" class="nav-link" data-scroll-target="#engineered-enzymes">Engineered enzymes</a></li>
   <li><a href="#pipolb" id="toc-pipolb" class="nav-link" data-scroll-target="#pipolb">piPolB</a></li>
   </ul></li>
+  <li><a href="#bacterial-iees" id="toc-bacterial-iees" class="nav-link" data-scroll-target="#bacterial-iees">Bacterial IEEs</a></li>
   <li><a href="#bacterial-rts" id="toc-bacterial-rts" class="nav-link" data-scroll-target="#bacterial-rts">Bacterial RTs</a></li>
   </ul>
 </nav>
@@ -217,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">May 23, 2024</p>
+      <p class="date-modified">November 6, 2024</p>
     </div>
   </div>
     
@@ -278,6 +279,12 @@ ul.task-list li input[type="checkbox"] {
 <p>The piPolB-encoding genes are the hallmark of a new group of self-replicating mobile genetic elements (MGEs), that we named pipolins (for piPolB-encoding mobile element). Pipolins are integrated within the genomes of three highly diverse bacterial phyla (<em>Firmicutes</em>, <em>Actinobacteria</em> and <em>Proteobacteria</em>) and are also carried by mitochondria as circular plasmids. Multiple sequence analysis (MSA) showed that piPolB share exonuclease and polymerase motifs of PolBs, albeit with notable variations within the PolC and KxY motifs (Figure 1B).&nbsp;</p>
 </section>
 </section>
+<section id="bacterial-iees" class="level2">
+<h2 class="anchored" data-anchor-id="bacterial-iees">Bacterial IEEs</h2>
+<p>Bacterial genomes contain an abundance of transposable insertion sequence (IS) elements that are essential for genome evolution and fitness. Among them, IS<em>629</em> is present in several pathogenic strains of enterohemorrhagic <em>Escherichia coli</em> and accounts for many polymorphisms associated with gene inactivation and/or genomic deletions. The excision of IS<em>629</em> from the genome is promoted by IS-excision enhancer (IEE) protein.</p>
+<p>In a recent <a href="https://academic.oup.com/nar/article/51/3/1189/7009115">paper</a> in collaboration with our friend <a href="https://www.cbm.uam.es/index.php/scientific-programs/tissue-and-organ-homeostasis/cell-cell-communication-and-inflammation/maintenance-of-bacterial-genome-stability/">Dr.&nbsp;Miguel de Vega</a>, we show that IEE is present in &gt;30% of all available <em>E. coli</em> genome assemblies, and is highly conserved and very abundant within enterohemorrhagic, enteropathogenic and enterotoxigenic genomes. Furthermore, Miguel could nicely show that the recombinant protein from <em>E. coli</em> O157:H7 displays a Mn<sup>2+</sup>-dependent error-prone DNA polymerase activity <em>in vitro</em>, which locates in its N-terminal archaeo-eukaryotic primase (AEP) domain. Importantly, IEE can efficiently perform <em>in vitro</em> an end-joining reaction of 3’-single-strand DNA overhangs with&nbsp;≥4 bp of homology requiring both the N-terminal AEP and C-terminal helicase domains.</p>
+<p></p><div id="tweet-34142"></div><script>tweet={"url":"https:\/\/twitter.com\/CBM_CSIC_UAM\/status\/1620398383151337473","author_name":"Centro de Biología Molecular Severo Ochoa","author_url":"https:\/\/twitter.com\/CBM_CSIC_UAM","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENew manuscript from Miguel de Vega’s lab \u003Ca href=\"https:\/\/twitter.com\/devega_M?ref_src=twsrc%5Etfw\"\u003E@devega_M\u003C\/a\u003E, @CBMSO_CSIC_UAM in \u003Ca href=\"https:\/\/twitter.com\/NAR_Open?ref_src=twsrc%5Etfw\"\u003E@NAR_Open\u003C\/a\u003E about a DNA polymerase from enterohemorrhagic E. coli strains endowed with an end-joining activity, in collaboration with \u003Ca href=\"https:\/\/twitter.com\/mredrejo?ref_src=twsrc%5Etfw\"\u003E@mredrejo\u003C\/a\u003E lab from \u003Ca href=\"https:\/\/twitter.com\/IIBmCSICUAM?ref_src=twsrc%5Etfw\"\u003E@IIBmCSICUAM\u003C\/a\u003E. \u003Ca href=\"https:\/\/t.co\/EjGbPAiYWE\"\u003Ehttps:\/\/t.co\/EjGbPAiYWE\u003C\/a\u003E\u003C\/p\u003E&mdash; Centro de Biología Molecular Severo Ochoa (@CBM_CSIC_UAM) \u003Ca href=\"https:\/\/twitter.com\/CBM_CSIC_UAM\/status\/1620398383151337473?ref_src=twsrc%5Etfw\"\u003EJanuary 31, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-34142").innerHTML = tweet["html"];</script><p></p>
+</section>
 <section id="bacterial-rts" class="level2">
 <h2 class="anchored" data-anchor-id="bacterial-rts">Bacterial RTs</h2>
 <p>Reverse transcriptases (RTs) are enzymes capable of synthesizing DNA using RNA as a template. Within the last few years, a burst of research has led to the discovery of novel prokaryotic RTs with diverse antiviral properties, such as DRTs (Defense-associated RTs), which belong to the so-called group of unknown RTs (UG) and are closely related to the Abortive Infection system (Abi) RTs.</p>
@@ -322,18 +329,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -365,7 +361,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/rnrlab\.github\.io");
@@ -373,7 +391,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -734,4 +752,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 <script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
 </body></html>
