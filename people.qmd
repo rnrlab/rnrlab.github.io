@@ -32,19 +32,11 @@ Víctor started his BSc thesis working on the biological role of piPolBs in bact
 
 His PhD project focus in the phylogenetic and functional characterization of pipolins, combining computational and "wet lab" approaches.
 
-#### Alba Lozano (Undergrad TFG, 2023-)
+#### Eduardo D. Lozano Escobar (PhD Student, 2023-)
 
-Alba started his Undergrad Project (TFG) last October. She's Fourth Year Student from Biology Degree at UCM (Universidad Complutense de Madrid).
+Eduardo carried out his Master's Thesis during 2023-24, dealing with novel lactic bacteria genomes, in collaboration with the laboratory of Dr. Antonia Picón (INIA-CSIC). He was granted a FPU PhD scholarship to come back to the lab early in 2025.
 
-She is working in the characterization of a new DNA polymerase, the viral YerA41 PolA (see the [Paper](https://pubmed.ncbi.nlm.nih.gov/35357498/) by our collaborator Mikael Skurnik). We are exited to see how her project will open new research lines in the lab.
 
-#### Eduardo D. Lozano Escobar (Master Student, 2023-)
-
-Eduardo started his Master's Thesis last September, in which he will deal with novel lactic bacteria genomes. His work will be in collaboration with the laboratory of Dr. Antonia Picón (INIA-CSIC).
-
-#### Rodrigo de la LLave (Undergrad TFG, 2023-)
-
-Rodrigo will work with Juan to develop the next step in assessing the biological role of piPolB in the context of diverse *E. coli* systems.
 
 # Lab pictures
 
@@ -56,6 +48,15 @@ Rodrigo will work with Juan to develop the next step in assessing the biological
 
 # Alumni
 
+#### Alba Lozano (Undergrad TFG, 2023-2024)
+
+Alba started his Undergrad Project (TFG) last October. She's Fourth Year Student from Biology Degree at UCM (Universidad Complutense de Madrid).
+
+She worked in the characterization of a new DNA polymerase, the viral YerA41 PolA (see the [Paper](https://pubmed.ncbi.nlm.nih.gov/35357498/) by our collaborator Mikael Skurnik). 
+
+#### Rodrigo de la LLave (Undergrad TFG, 2023-24)
+
+Rodrigo worked with Juan to develop the next step in assessing the biological role of piPolB in the context of diverse *E. coli* systems.
 
 #### Esmeralda Solar Venero (Postdoc, 2022-2023)
 

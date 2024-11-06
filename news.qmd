@@ -19,12 +19,18 @@ toc-depth: 3
 
 ## Papers, Blog posts, news...
 
-### May 23, 2024 - Preprint Alert!
+### November 5, 2024 - Our paper in UAM Gazette!
 
-We just deposited a terrific manuscript by Víctor on bioRxiv!
+The Scientific Culture Unit at UAM ([Unidad de Cultura Científica, UCC](https://www.uam.es/uam/investigacion/cultura-cientifica)) help us go gain a broader difusion of our work and published a note about our recent paper (in Spanish): <https://www.uam.es/uam/investigacion/cultura-cientifica/noticias/bacterias->
+
+This note has been posted in the UAM social media accounts (like [𝕏](https://x.com/UAM_Madrid/status/1853800065778794564)) and republished by other news portals, including versions in [Madrid+d](https://www.madrimasd.org/notiweb/noticias/identifican-elementos-geneticos-moviles-clave-defensa-contra-bacteriofagos?utm_campaign=notiweb-05112024&utm_medium=email&utm_source=mail-marketing#utm_source=notiweb_newsletter&utm_medium=email&utm_campaign=noti2_05nov2024) and a version in English at [MyScience](https://www.myscience.es/news/2024/identifican_elementos_geneticos_moviles_clave_para_la_defensa_contra_bacteriofagos-2024-uam) portal.
+
+### October 15, 2024 - New Paper Alert!
+
+We just published a terrific manuscript by Víctor on NAR!
 
 ::: {.callout-note icon="true"}
-### [Pipolins are bimodular platforms that maintain a reservoir of defense systems exchangeable with various bacterial genetic mobile elements](https://www.biorxiv.org/content/10.1101/2024.05.22.595293)
+### [Pipolins are bimodular platforms that maintain a reservoir of defense systems exchangeable with various bacterial genetic mobile elements](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae891/7822304#google_vignette)
 :::
 
 #### What does it mean?
@@ -83,7 +89,4 @@ Behind the paper in *Nature Microbiology Community*. [Link](https://microbiology
 
 ## Our **X** timeline
 
-```{=html}
-
 <a class="twitter-timeline" href="https://twitter.com/RnR_Lab?ref_src=twsrc%5Etfw">Tweets by RnR_Lab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
