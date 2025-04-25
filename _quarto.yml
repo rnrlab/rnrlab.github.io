@@ -27,12 +27,14 @@ website:
       - news.qmd
       - contact.qmd
   page-footer: 
-    left: "Copyright 2023, Modesto Redrejo Rodríguez" 
+    left: "Copyright 2019-2024, Modesto Redrejo Rodríguez" 
     right: 
       - icon: github
         href: https://github.com/rnrlab
       - text: "{{< iconify fa6-brands x-twitter >}}"
         href: https://twitter.com/RnR_Lab
+      - text: "{{< iconify simple-icons bluesky >}}"
+        href: https://bsky.app/profile/mredrejo.bsky.social
   page-navigation: true
 
 bibliography: references.bib

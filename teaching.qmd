@@ -31,17 +31,17 @@ In this course, we provide a detailed background on the flow of genetic informat
 
 -   [2023-2024 Course Syllabus](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/EW0FgKhnWp9ChzLMxPmpiqUBcp2-8EykmdqJKJ6qIe5QQQ?e=tIPMA6)
 
--   [2023-2024 Replication and Repair Slides](https://dauam-my.sharepoint.com/:f:/g/personal/modesto_redrejo_uam_es/Eg2h5uOmtQ5EkMx5u__AwjUBU3Bv3AdMEVPPXr62LH-Wbw?e=aw89Qh)
+-   [2024-2025 Replication and Repair Slides](https://dauam-my.sharepoint.com/:f:/g/personal/modesto_redrejo_uam_es/EvPycXrpxclNm2iOSmJ3ufABPL5SJa5-egVX58105WiZUA?e=fDCP5n)
 
 ## Coding Tools for Biochemistry and Molecular Biology (4rd year, Fall Semester)
 
 This is an introductory course to bioinformatics coding, by the use of Python and R. Since the year 2021-22 Modesto lecture most of the **R** section.
 
--   [2023-2024 Course Materials](https://mredrejo.github.io/HPBBM2023/) (with the help of Prof. Luis del Peso).
+-   [2024-2025 Course Materials](https://r4biochemists.github.io/) (materials developed with the help of Prof. Luis del Peso).
 
--   [2022-2023 Syllabus](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/ES1JSbyETIFOlIMfbTukziMB3V-TpkkezH3YwlR4AfF5yA?e=GQ1wuy)
+-   [2024-2025 Syllabus](https://github.com/r4biochemists/r4biochemists.github.io/blob/main/2024_18245_es.pdf)
 
--   [Project-based approach scheme](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/Eamn19iTopJFioUw2XxZxggB3cakFyu2wjAHpbzQrRB9pA?e=ATVZgO)
+-   [Project-based approach scheme](https://github.com/r4biochemists/r4biochemists.github.io/blob/main/intro_PBL_2024.pdf)
 
 ## Experimental Models in Biomedicine (4rd year, Fall Semester)
 
@@ -49,25 +49,19 @@ In this course, we mentor the students in developing research projects using div
 
 -   [2022-2023 Syllabus](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/EYlIhaze0UxLn6cCDmz0VG8BHZjlOjOSXvNqqW5jiyW46g?e=HAjQWJ)
 
--   [2023-2024 Slides](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/EbswYt8bEwpOqpHqPytPwNQB9V9zN-wIRZVN-x9iI2PaGg?e=G9a47E)
+-   [2024-2025 Slides](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/EYTULReLwwBNmOBTsihsfgoBgToipCxISSJJ7SsoT44cvw?e=iWtTbm)
 
 # Master's Degree in Bioinformatics and Computational Biology
 
 ## Structural Bioinformatics
 
--   [2023-2024 Materials](https://strbio.github.io/)
-
--   [2022-2023 Syllabus](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/EXvH5Ek4giFEsho4zZPCSiIBXoiTjW8DOZQhd9_jjGZQWA?e=gTMEvu)
-
--   [2022-2023 Materials](https://strbio.github.io/strbio2022_23/)
-
--   [2022-2023 Slides](https://dauam-my.sharepoint.com/:f:/g/personal/modesto_redrejo_uam_es/EiJOwHBHWjZDqT_HhzJJelABu-e5LKJ7gUHPEEqg3KKT3Q?e=kX48d4)
+-   [2024-2025 Materials](https://strbio.github.io/)
 
 # Other Lectures & Courses
 
 ## Replication, Repair and Genome's Instability (Master's Degree in Biomolecules and Cell Dynamics)
 
-[Repair of oxidative DNA damage (Slides 2023-2024).](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/EWc21EAQkj9Nto5Aju26mjQBO0T5JjDJNvZAaBNmhZHl4Q?e=LnWOYv)
+[Repair of oxidative DNA damage (Slides 2024-2025).](https://dauam-my.sharepoint.com/:b:/g/personal/modesto_redrejo_uam_es/EerDM7ROrO9PtPDQ1WXL-P8Bi7d-oDAn-ZOVeq6a_c_PrA?e=p9OVh4)
 
 ## Bioinformatics for non-bioinformaticians ([link](https://civis.eu/en/civis-courses/bioinformatics-for-non-bioinformaticians-computational-analyses-in-health-and-life-sciences))
 

@@ -12,7 +12,6 @@ title-block-banner-color: "#000A8F"
 
 ```
 
-
 # Welcome...
 
 ::: {style="float: right; position: relative; top: -10px; padding: 0px;"}
@@ -26,7 +25,7 @@ Our lab is at the [School of Medicine of UAM](https://www.uam.es/Medicina/Home/1
 # Lab Scope
 
 ::: {style="float: left; position: relative;  bottom: 12px;padding-right: -10px;margin:0px 0px -20px 0px"}
-![](figs/rnr_short.gif){width="350"}
+![](figs/rnr_short.gif){width="300"}
 :::
 
 In our lab, we focus on the protein factors (enzymes) that carry out DNA replication and repair.
