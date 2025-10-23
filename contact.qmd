@@ -14,7 +14,7 @@ toc: TRUE
 
 ## The lab By Metro
 
-The lab is 10 min walk from the Begoña Metro Station (Exit to *San Modesto*). Follow the dashed line to the Biochemistry Department door. The arrow indicates a shortcut using a small door to the Medicine Campus.
+The lab is 10 min walk from the [*Begoña*]{.underline} Metro Station (Exit to *San Modesto* 😇). Follow the dashed line to the Biochemistry Department door. The arrow indicates a shortcut using a small door to the Medicine Campus.
 
 Once inside the Campus walk straight until you find the big building of the School of Medicine.
 

@@ -20,7 +20,11 @@ title-block-banner-color: "#000A8F"
 
 ... to the **R'n'R lab**, where you can learn about DNA **R**eplication and **R**epair, meet Modesto **R**edrejo **R**odríguez and listen to **R**ock & **R**oll music.
 
-Our lab is at the [School of Medicine of UAM](https://www.uam.es/Medicina/Home/1234890379763.htm?language=en) (Madrid) and it also belongs to the [*Instituto de Investigaciones Biomédicas "Alberto Sols"*](https://www.iib.uam.es/portal/), a joint CSIC/UAM Research Institute on biomedicine. The RnR group is also available at [IIB site](https://www.iib.uam.es/portal/investigacion/grupos?p_p_id=APGIportlet_WAR_APIIBportlet_INSTANCE_2Veq&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-3&p_p_col_count=1&_APGIportlet_WAR_APIIBportlet_INSTANCE_2Veq_action=detail&_APGIportlet_WAR_APIIBportlet_INSTANCE_2Veq_id=1072&_APGIportlet_WAR_APIIBportlet_INSTANCE_2Veq_idJefe=4072&_APGIportlet_WAR_APIIBportlet_INSTANCE_2Veq_menu=intro).
+Our lab is at the [School of Medicine of UAM](https://www.uam.es/Medicina/Home/1234890379763.htm?language=en) (Madrid) and it also belongs to the [*Instituto de Investigaciones Biomédicas "Sols-Morreale"*](https://www.iib.uam.es/portal/), a joint CSIC/UAM Research Institute on biomedicine. The RnR group is also available at [IIB site](https://www.iib.uam.es/web/iibm/departamentos?p_p_id=APGIportlet_WAR_IIBMappPortlets_INSTANCE_vjNkurhVUlsL&p_p_lifecycle=0&_APGIportlet_WAR_IIBMappPortlets_INSTANCE_vjNkurhVUlsL_codIgrupo=149&_APGIportlet_WAR_IIBMappPortlets_INSTANCE_vjNkurhVUlsL_action=getIgrupo).
+
+#
+
+![](images/logo.png) ![](images/UAM+Medicina_C.png){width="260" height="40"}
 
 # Lab Scope
 

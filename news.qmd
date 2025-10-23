@@ -21,6 +21,11 @@ toc-depth: 3
 
 ## News about Papers, Blog posts, fellowships...
 
+### July 30, 2025 - AEI Research Grant awarded!
+
+We are very happy to just know that our National grant PID2024 has been awarded. This grant will support us for the following three years.
+
+
 ### November 5, 2024 - Our paper in UAM Gazette!
 
 The Scientific Culture Unit at UAM ([Unidad de Cultura Científica, UCC](https://www.uam.es/uam/investigacion/cultura-cientifica)) help us go gain a broader difusion of our work and published a note about our recent paper (in Spanish): <https://www.uam.es/uam/investigacion/cultura-cientifica/noticias/bacterias->

@@ -7,8 +7,10 @@ date-modified: "`r format(Sys.time(), '%Y-%m-%d')`"
 ```{r}
 
 ```
-
 # Current Members
+
+![October 2025](images/oct25.png)
+
 
 #### Modesto Redrejo Rodríguez (PI, Associate Professor) [![](figs/orcid.png){width="16"}](https://orcid.org/0000-0003-0014-4162) [![](figs/scopus-logo.png){width="16"}](https://www.scopus.com/authid/detail.uri?authorId=12791769600) [![](figs/rg.png){width="16"}](https://www.researchgate.net/profile/Modesto-Redrejo-Rodriguez) [![](figs/wos.png){width="16"}](https://www.webofscience.com/wos/author/record/D-7247-2012) [{{< iconify fa6-brands x-twitter >}}](https://twitter.com/mredrejo "@mredrejo")
 
@@ -22,35 +24,41 @@ He is very interested in the use of multidisciplinary approaches, using biochemi
 
 Juan is a very experienced researcher in genetics and molecular biology of model organisms, particularly *Drosophila melanogaster*. After several months of sharing the lab with us and providing very interesting "outsider" discussions, he decided to join the crew. He will be very helpful in the students' supervision and focus in the biological role of pipolins.
 
+#### Marta Cobo Simón (Assistant Professor, 2025- )
+
+Marta is an expert in bioinformatics, bacterial genomics, evolutionary biology, and metagenomics. Her research explores bacterial population biology, mobile genetic elements, and the resistome. She will collaborate with us on the characterization of novel pipolins in diverse ecosystems.
+
+
 #### Carmen Mayoral Campos (PhD Student, 2019- )[{{< iconify fa6-brands x-twitter >}}](https://twitter.com/karmayoral "@karmayoral")
 
 Carmen is graduated in Biology and MSc in Biomolecules and Cell Dynamics (UAM). She is working in structure-function studies of piPolB, focused on understanding DNA priming capacity of these new DNA polymerases.
 
 #### Víctor Mateo Cáceres (PhD student, 2019-)
 
-Víctor started his BSc thesis working on the biological role of piPolBs in bacteria. His project involved the characterization of a piPolB mutant in the context of a naturally occurring pipolin from *E. coli*. However, during the Covid19 lockdown, he decided to switch into a Bioinformatics project and then enrolled in the Bioinformatics and Computational Biology. During the first year of his Master he got a "Collaboration Fellowship" that will help us to finish the [ExplorePipolin](https://github.com/pipolinlab/ExplorePipolin) pipeline.
+Víctor began his research career with his BSc thesis on the biological role of piPolBs in bacteria. His initial project focused on characterizing a piPolB mutant within a naturally occurring *E. coli* pipolin. During the COVID-19 lockdown, he transitioned to a bioinformatics-oriented project and subsequently enrolled in the Master’s program in Bioinformatics and Computational Biology. In the first year of his Master’s, he received a Collaboration Fellowship to contribute to the development of the [ExplorePipolin](https://github.com/pipolinlab/ExplorePipolin) pipeline.
 
-His PhD project focus in the phylogenetic and functional characterization of pipolins, combining computational and "wet lab" approaches.
+In 2023, Víctor began his PhD, focusing on the phylogenetic and functional characterization of pipolins through an integrated computational and experimental (“wet lab”) approach.
+
 
 #### Eduardo D. Lozano Escobar (PhD Student, 2023-)
 
-Eduardo completed his Master's Thesis in 2023-24, focusing on novel lactic bacteria genomes in collaboration with Dr. Antonia Picón's laboratory (INIA-CSIC). He was awarded a FPU PhD scholarship to return to the lab in early 2025 as PhD student. His PhD thesis project aims to analyze the transcriptomics of betatectivirus to further understand the virus-host relationship at the molecular level.
+Eduardo earned his degree in Biotechnology from UEx and later completed his Master’s thesis in Bioinformatics at UAM (2023–2024) in our lab. His research focused on characterizing novel lactic acid bacterial genomes, in collaboration with Dr. Antonia Picón’s group at INIA-CSIC.
 
-#### Kilian Rueda Bolaño (MSc Student, 2025)
+He was awarded an FPU PhD fellowship and will return to the lab in early 2025 to pursue his doctoral studies. His PhD project aims to analyze the transcriptomics of betatectiviruses to better understand virus–host interactions at the molecular level, in collaboration with Annika Gillis (MIAE lab, UCLouvain).
 
-Kilian has a BSc Degree in Microbiology and is currently studying a Master's Degree in Virology (\@UCM). His MSc Thesis aims to provide the first insights into new defense functions in pipolins. His work is part of a collaboration with José A. Escudero ([MBA lab](https://ucm.es/mbalab), \@UCM).
 
-#### Juan Carlos Ramírez Montans (MSc Student, 2025)
+#### Juan Carlos Ramírez Montans (PhD Student, 2025)
 
-Juan Carlos, a biochemist from UEx, is currently working with us on his Master's thesis in Bioinformatics and Computational Biology at UAM. He is employing a multidisciplinary approach that includes structural and sequence comparisons to analyze the diversity of viral TPs and uncover their evolutionary history.
+Juan Carlos holds a degree in Biochemistry from UEx and joined the lab for his Master’s thesis in Bioinformatics and Computational Biology at UAM. His work employed a multidisciplinary approach, integrating structural and sequence analyses to explore the diversity and evolutionary history of viral terminal proteins (TPs).
 
-#### Laura Ferrer Vazquez (BSc Student, 2025)
-
-Laura is currently in her last year of BSc Degree in Biochemistry. Her work is related with the role of piPolB in DNA damage tolerance in *E. coli*.
+In his PhD, he will combine computational and biochemical methodologies to uncover novel minimalist DNA replicons in the lab, with the long-term goal of harnessing them for innovative biotechnological applications.
 
 
 
-# Lab pictures
+
+# Old lab pictures
+
+
 
 ![March 2025](images/IMG_4845.jpg)
 
@@ -62,7 +70,15 @@ Laura is currently in her last year of BSc Degree in Biochemistry. Her work is r
 
 # Alumni
 
-#### Alba Lozano (Undergrad TFG, 2023-2024)
+#### Kilian Rueda Bolaño (MSc Student, 2025)
+
+Kilian carried out his Thesis for the Master's Degree in Virology (\@UCM). His provided the first insights into new defense functions in pipolins. His work is part of a collaboration with José A. Escudero ([MBA lab](https://ucm.es/mbalab), \@UCM).
+
+#### Laura Ferrer Vazquez (BSc Student, 2025)
+
+Laura worked with us during her last year of BSc Degree in Biochemistry. Her work is related with the role of piPolB in DNA damage tolerance in *E. coli*.
+
+#### Alba Lozano (BSc Student, 2023-2024)
 
 Alba started his Undergrad Project (TFG) last October. She's Fourth Year Student from Biology Degree at UCM (Universidad Complutense de Madrid).
 
@@ -114,4 +130,4 @@ She is currently PhD student at the [Division of Virus-associated carcinogenesis
 
 Ana carried out her MSc in Virology in Salas' lab under Modesto's supervision and then she decided to stay in the lab for Ph.D. She worked in two different but complementary aspects of Bam35 tectivirus biology. First, she is characterizing viral DNA binding proteins and their role in TP-DNA genome replication. Moreover, she has been the main responsible for the [VirHost-omics](https://mredrejo.wixsite.com/rnrlab) project, using a Y2H screen and next-generation sequence to study virus-host relationships by high-through.
 
-She is currently Postdoc at the [Laboratory of Gene Technology](https://www.biw.kuleuven.be/biosyst/a2h/LoGT) @KU-Leuven
+She is currently Postdoc at the [Laboratory of Gene Technology](https://www.biw.kuleuven.be/biosyst/a2h/LoGT) \@KU-Leuven

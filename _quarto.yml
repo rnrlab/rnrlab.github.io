@@ -27,7 +27,7 @@ website:
       - news.qmd
       - contact.qmd
   page-footer: 
-    left: "Copyright 2019-2024, Modesto Redrejo Rodríguez" 
+    left: "CC BY-NC-SA, R'n'R lab (since 2019)" 
     right: 
       - icon: github
         href: https://github.com/rnrlab

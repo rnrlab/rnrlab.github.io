@@ -11,9 +11,19 @@ toc: FALSE
 
 Although we always acknowledge our funding in publications and presentations, we also want to thank again our financiers and keep record of lab grants in this site. Unless otherwise stated, Modesto was the principal investigator of the grants below.
 
+# Molecular characterization of orthogonal replicons and their application as new biotechnology tools 
+
+**Founder:** Agencia Estatal de Investigación, 1/9/2025-31/8/2028
+
+**Grant Ref.** PID2024-156454NB-I00.
+
+**Funding:** 150.000€
+
+![](figs/micin-uefeder-aei.png){width="600"}
+
 # Functional characterization of primer-independent DNA polymerases in the context of genotoxic stress in bacteria
 
-**Founder:** Agencia Estatal de Investigación, 1/9/2022-31/8/2025
+**Founder:** Agencia Estatal de Investigación, 1/9/2022-31/12/2025
 
 **Grant Ref.** PID2021-123403NB-I00.
 

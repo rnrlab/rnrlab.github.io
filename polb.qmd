@@ -48,9 +48,6 @@ In two consecutive papers, [Berjón-Otero et al. 2015](https://pubmed.ncbi.nlm.n
 
 [![Genome end sequences (A) and schematic representation of early replication steps (B) of representative viruses that replicate by a protein-priming mechanism. From Berjón-Otero et al. 2016](images/image-1362005745.png)](https://pubmed.ncbi.nlm.nih.gov/27466389/)
 
-### Engineered enzymes
-
-The characterization of B35DNAP prompted us to consider new applications of...
 
 ### piPolB
 
