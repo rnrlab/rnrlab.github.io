@@ -11,7 +11,7 @@ toc: FALSE
 
 Although we always acknowledge our funding in publications and presentations, we also want to thank again our financiers and keep record of lab grants in this site. Unless otherwise stated, Modesto was the principal investigator of the grants below.
 
-# Molecular characterization of orthogonal replicons and their application as new biotechnology tools 
+# Molecular characterization of orthogonal replicons and their application as new biotechnology tools
 
 **Founder:** Agencia Estatal de Investigación, 1/9/2025-31/8/2028
 

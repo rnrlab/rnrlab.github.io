@@ -21,6 +21,31 @@ toc-depth: 3
 
 ## News about Papers, Blog posts, fellowships...
 
+### March 19, 2026 - 🚀 Not one but two papers today!
+
+#### **NEW Preprint 📜: A new biotech tool for massive gene discovery (with José A. Escudero [{{< iconify fa6-brands x-twitter >}}](https://x.com/jaegc "@JAEGC"))**
+
+We’re excited to share a collaborative project that presents a new biotechnology tool designed for large‑scale gene discovery screens. This approach enables the high‑throughput recovery and analysis of gene from complex samples, opening the door to exploring vast reservoirs of functional diversity that standard genomic methods often overlook. By streamlining cassette capture and characterization, the method provides a powerful platform for uncovering novel genes, adaptive functions, and hidden metabolic capabilities across diverse microbial communities.
+
+🔬 At the heart of this work are integrons, extraordinary diverse mobile genetic elements that act as natural gene‑assembly platforms in bacteria. Integrons capture, rearrange, and mobilize gene cassettes, driving rapid evolutionary innovation. In this [manuscript](https://www.biorxiv.org/content/10.64898/2026.03.17.712381v1) posted in bioRxiv, **Filipa Trigo da Roza** [{{<iconify simple-icons bluesky >}}](https://bsky.app/profile/filipatr.bsky.social "@filipatr.bsky.social"), from the [MBA lab](https://ucm.es/mbalab), develops and successfully applies two new screening pipelines, the *cassette gatherer* and the *cassette hunter*, to uncover the diversity of integron gene cassettes at unprecedented scale. Our group contributed the genomics and bioinformatics analysis, helping quantify cassette abundance, annotate functions, and map the organizational patterns within integron arrays. 
+
+It’s been a pleasure to collaborate once again with colleagues whose creativity and energy make this kind of work truly enjoyable. Stay tuned—this tool will unlock many more discoveries to come.
+
+👉 Check out the data‑analysis in our [{{< iconify octicon mark-github-16 >}} cassette_gatherer_hunter](https://github.com/mredrejo/cassette_gatherer_hunter) repository.
+
+#### **Unexpected tolerance of *T. thermophilus* to genome to TnSeq insertions in bacterial Common Essential Genes (with Mario Mencía  [{{< iconify fa6-brands x-twitter >}}](https://x.com/mariomenciacab "@mariomenciacab"))**
+
+We are delighted to share the publication of our new paper in [MicrobiologyOpen](https://onlinelibrary.wiley.com/doi/10.1002/mbo3.70207), the result of a thoroughly enjoyable collaboration with long‑time colleagues, rewarding on the personal side as it was scientifically. The study uses high‑resolution TnSeq mutagenesis to interrogate genome‑wide gene permissiveness in *Thermus thermophilus*, a model thermophilic bacterium that can grow in a temperature range of 65ºC to 75ºC. By generating and sequencing large libraries of random insertion mutants, the work uncovers a surprising tolerance to insertions even in genes traditionally thought to be part of the universal bacterial “essential core”, revealing a genomic landscape far more flexible than expected in this organism. 
+
+We provided our genomics and bioinformatics expertise for the analysis of the TnSeq sequencing libraries, including mapping, normalization, insertion‑site quantification and the clustering of genome‑wide permissiveness profiles. In most bacterial TnSeq studies, insertion‑frequency distributions appear bimodal: a large group of genes tolerant to many insertions and a smaller subset of essential genes with almost no insertions (often enriched at gene ends). Strikingly, *Thermus thermophilus* showed a very different pattern, a unimodal curve, with only a few genes accumulating many insertions and a gradual, almost linear decline across the remaining genes. This unusual distribution makes the classical identification of essential genes extremely challenging.
+Using a clustering‑based strategy, we were able to separate genes into two major groups—those with high and those with intermediate tolerance to insertions. This approach helped reveal unexpected patterns of gene disruption and highlighted how features such as redundancy in DNA‑repair pathways.
+We then compared the results with core bacterial essential genes from various studies and with the Thermus gene expression pattern, finding no overall correlation. We propose that the intrinsic polyploidy and plasticity of the *Thermus* genome may buffer the effects of transposon insertions. These findings offer a more nuanced perspective on gene essentiality in extremophiles and open new possibilities for genetic engineering and evolutionary studies in high‑temperature bacterial models. Furthermore, we provide a novel perspective for Tn-seq screens and their interpretation regarding gene essentiality.
+
+
+
+👉 Check out the full data‑analysis in a [{{< iconify octicon mark-github-16 >}}repo](https://github.com/mredrejo/thermus_tnseq) and [GitHub pages site](https://mredrejo.github.io/thermus_tnseq/).
+
+
 ### July 30, 2025 - AEI Research Grant awarded!
 
 We are very happy to just know that our National grant PID2024 has been awarded. This grant will support us for the following three years.
