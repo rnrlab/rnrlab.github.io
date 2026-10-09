@@ -1,0 +1,1161 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1038/nrmicro1235",
+            "URL": "https://www.nature.com/articles/nrmicro1235",
+            "author": [
+                {
+                    "family": "Frost",
+                    "given": "Laura S."
+                },
+                {
+                    "family": "Leplae",
+                    "given": "Raphael"
+                },
+                {
+                    "family": "Summers",
+                    "given": "Anne O."
+                },
+                {
+                    "family": "Toussaint",
+                    "given": "Ariane"
+                }
+            ],
+            "container-title": "Nature Reviews Microbiology",
+            "id": "frost2005",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005,
+                        9
+                    ]
+                ]
+            },
+            "language": "en",
+            "note": "Number: 9 Publisher: Nature Publishing Group",
+            "page": "722-732",
+            "title": "Mobile genetic elements: the agents of open source evolution",
+            "title-short": "Mobile genetic elements",
+            "type": "article-journal",
+            "volume": "3"
+        },
+        {
+            "DOI": "10.1128/CMR.00088-17",
+            "author": [
+                {
+                    "family": "Partridge",
+                    "given": "S. R."
+                },
+                {
+                    "family": "Kwong",
+                    "given": "S. M."
+                },
+                {
+                    "family": "Firth",
+                    "given": "N."
+                },
+                {
+                    "family": "Jensen",
+                    "given": "S. O."
+                }
+            ],
+            "container-title": "Clinical Microbiology Reviews",
+            "id": "partridge2018",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        10
+                    ]
+                ]
+            },
+            "note": "PMCID: PMC6148190",
+            "title": "Mobile genetic elements associated with antimicrobial resistance",
+            "type": "article-journal",
+            "volume": "31"
+        },
+        {
+            "DOI": "10.1038/s41576-019-0172-9",
+            "URL": "https://www.nature.com/articles/s41576-019-0172-9",
+            "author": [
+                {
+                    "family": "Koonin",
+                    "given": "Eugene V."
+                },
+                {
+                    "family": "Makarova",
+                    "given": "Kira S."
+                },
+                {
+                    "family": "Wolf",
+                    "given": "Yuri I."
+                },
+                {
+                    "family": "Krupovic",
+                    "given": "Mart"
+                }
+            ],
+            "container-title": "Nature Reviews Genetics",
+            "id": "koonin2020",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        2
+                    ]
+                ]
+            },
+            "language": "en",
+            "note": "Number: 2 Publisher: Nature Publishing Group",
+            "page": "119-131",
+            "title": "Evolutionary entanglement of mobile genetic elements and host defence systems: guns for hire",
+            "title-short": "Evolutionary entanglement of mobile genetic elements and host defence systems",
+            "type": "article-journal",
+            "volume": "21"
+        },
+        {
+            "DOI": "10.1111/j.1469-0691.2011.03570.x",
+            "author": [
+                {
+                    "family": "Magiorakos",
+                    "given": "A. P."
+                },
+                {
+                    "family": "Srinivasan",
+                    "given": "A."
+                },
+                {
+                    "family": "Carey",
+                    "given": "R. B."
+                },
+                {
+                    "family": "Carmeli",
+                    "given": "Y."
+                },
+                {
+                    "family": "Falagas",
+                    "given": "M. E."
+                },
+                {
+                    "family": "Giske",
+                    "given": "C. G."
+                },
+                {
+                    "family": "Harbarth",
+                    "given": "S."
+                },
+                {
+                    "family": "Hindler",
+                    "given": "J. F."
+                },
+                {
+                    "family": "Kahlmeter",
+                    "given": "G."
+                },
+                {
+                    "family": "Olsson-Liljequist",
+                    "given": "B."
+                },
+                {
+                    "family": "Paterson",
+                    "given": "D. L."
+                },
+                {
+                    "family": "Rice",
+                    "given": "L. B."
+                },
+                {
+                    "family": "Stelling",
+                    "given": "J."
+                },
+                {
+                    "family": "Struelens",
+                    "given": "M. J."
+                },
+                {
+                    "family": "Vatopoulos",
+                    "given": "A."
+                },
+                {
+                    "family": "Weber",
+                    "given": "J. T."
+                },
+                {
+                    "family": "Monnet",
+                    "given": "D. L."
+                }
+            ],
+            "container-title": "Clin Microbiol Infect",
+            "id": "magiorakos2012",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        3
+                    ]
+                ]
+            },
+            "page": "268-81",
+            "title": "Multidrug-resistant, extensively drug-resistant and pandrug-resistant bacteria: An international expert proposal for interim standard definitions for acquired resistance",
+            "title-short": "Multidrug-resistant, extensively drug-resistant and pandrug-resistant bacteria",
+            "type": "article-journal",
+            "volume": "18"
+        },
+        {
+            "DOI": "10.1128/mBio.02443-19",
+            "URL": "https://journals.asm.org/doi/10.1128/mBio.02443-19",
+            "author": [
+                {
+                    "family": "Carvalho",
+                    "given": "Gabriel"
+                },
+                {
+                    "family": "Fouchet",
+                    "given": "David"
+                },
+                {
+                    "family": "Danesh",
+                    "given": "Gonché"
+                },
+                {
+                    "family": "Godeux",
+                    "given": "Anne-Sophie"
+                },
+                {
+                    "family": "Laaberki",
+                    "given": "Maria-Halima"
+                },
+                {
+                    "family": "Pontier",
+                    "given": "Dominique"
+                },
+                {
+                    "family": "Charpentier",
+                    "given": "Xavier"
+                },
+                {
+                    "family": "Venner",
+                    "given": "Samuel"
+                }
+            ],
+            "container-title": "mBio",
+            "id": "carvalho2020",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        3,
+                        3
+                    ]
+                ]
+            },
+            "note": "Publisher: American Society for Microbiology",
+            "page": "e02443-19",
+            "title": "Bacterial transformation buffers environmental fluctuations through the reversible integration of mobile genetic elements",
+            "type": "article-journal",
+            "volume": "11"
+        },
+        {
+            "DOI": "10.1128/microbiolspec.GPP3-0030-2018",
+            "URL": "https://journals.asm.org/doi/10.1128/microbiolspec.GPP3-0030-2018",
+            "author": [
+                {
+                    "family": "Firth",
+                    "given": "Neville"
+                },
+                {
+                    "family": "Jensen",
+                    "given": "Slade O."
+                },
+                {
+                    "family": "Kwong",
+                    "given": "Stephen M."
+                },
+                {
+                    "family": "Skurray",
+                    "given": "Ronald A."
+                },
+                {
+                    "family": "Ramsay",
+                    "given": "Joshua P."
+                }
+            ],
+            "container-title": "Microbiology Spectrum",
+            "id": "firth2018",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        12,
+                        13
+                    ]
+                ]
+            },
+            "note": "Publisher: American Society for Microbiology",
+            "page": "6.6.06",
+            "title": "Staphylococcal plasmids, transposable and integrative elements",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
+            "DOI": "10.1038/s41467-021-26101-5",
+            "URL": "https://www.nature.com/articles/s41467-021-26101-5",
+            "author": [
+                {
+                    "family": "Humphrey",
+                    "given": "Suzanne"
+                },
+                {
+                    "family": "San Millán",
+                    "given": "Álvaro"
+                },
+                {
+                    "family": "Toll-Riera",
+                    "given": "Macarena"
+                },
+                {
+                    "family": "Connolly",
+                    "given": "John"
+                },
+                {
+                    "family": "Flor-Duro",
+                    "given": "Alejandra"
+                },
+                {
+                    "family": "Chen",
+                    "given": "John"
+                },
+                {
+                    "family": "Ubeda",
+                    "given": "Carles"
+                },
+                {
+                    "family": "MacLean",
+                    "given": "R. Craig"
+                },
+                {
+                    "family": "Penadés",
+                    "given": "José R."
+                }
+            ],
+            "container-title": "Nature Communications",
+            "id": "humphrey2021",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        10,
+                        6
+                    ]
+                ]
+            },
+            "language": "en",
+            "note": "Number: 1 Publisher: Nature Publishing Group",
+            "page": "5845",
+            "title": "Staphylococcal phages and pathogenicity islands drive plasmid evolution",
+            "type": "article-journal",
+            "volume": "12"
+        },
+        {
+            "DOI": "10.1128/MMBR.00020-10",
+            "URL": "https://journals.asm.org/doi/10.1128/MMBR.00020-10",
+            "author": [
+                {
+                    "family": "Smillie",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Garcillán-Barcia",
+                    "given": "M. Pilar"
+                },
+                {
+                    "family": "Francia",
+                    "given": "M. Victoria"
+                },
+                {
+                    "family": "Rocha",
+                    "given": "Eduardo P. C."
+                },
+                {
+                    "dropping-particle": "de la",
+                    "family": "Cruz",
+                    "given": "Fernando"
+                }
+            ],
+            "container-title": "Microbiology and Molecular Biology Reviews",
+            "id": "smillie2010",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010,
+                        9
+                    ]
+                ]
+            },
+            "note": "Publisher: American Society for Microbiology",
+            "page": "434-452",
+            "title": "Mobility of plasmids",
+            "type": "article-journal",
+            "volume": "74"
+        },
+        {
+            "DOI": "10.1111/j.1574-6976.2009.00168.x",
+            "author": [
+                {
+                    "family": "Garcillan-Barcia",
+                    "given": "M. P."
+                },
+                {
+                    "family": "Francia",
+                    "given": "M. V."
+                },
+                {
+                    "dropping-particle": "de la",
+                    "family": "Cruz",
+                    "given": "F."
+                }
+            ],
+            "container-title": "FEMS Microbiology Reviews",
+            "id": "garcillan-barcia2009",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009,
+                        5
+                    ]
+                ]
+            },
+            "page": "657-87",
+            "title": "The diversity of conjugative relaxases and its application in plasmid classification",
+            "type": "article-journal",
+            "volume": "33"
+        },
+        {
+            "DOI": "10.1016/j.tim.2020.05.011",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0966842X20301372",
+            "author": [
+                {
+                    "family": "Botelho",
+                    "given": "João"
+                },
+                {
+                    "family": "Schulenburg",
+                    "given": "Hinrich"
+                }
+            ],
+            "collection-title": "Special Issue: Microbial Genetics: Stress Management",
+            "container-title": "Trends in Microbiology",
+            "id": "botelho2021",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "8-18",
+            "title": "The Role of Integrative and Conjugative Elements in Antibiotic Resistance Evolution",
+            "type": "article-journal",
+            "volume": "29"
+        },
+        {
+            "DOI": "10.1016/j.cll.2019.05.003",
+            "author": [
+                {
+                    "family": "Mitchell",
+                    "given": "Stephanie L."
+                },
+                {
+                    "family": "Simner",
+                    "given": "Patricia J."
+                }
+            ],
+            "container-title": "Clinics in Laboratory Medicine",
+            "id": "mitchell2019",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        9
+                    ]
+                ]
+            },
+            "language": "eng",
+            "note": "PMID: 31383265",
+            "page": "405-418",
+            "title": "Next-Generation Sequencing in Clinical Microbiology: Are We There Yet?",
+            "title-short": "Next-Generation Sequencing in Clinical Microbiology",
+            "type": "article-journal",
+            "volume": "39"
+        },
+        {
+            "DOI": "10.1016/j.chom.2019.10.022",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S1931312819305463",
+            "author": [
+                {
+                    "family": "Durrant",
+                    "given": "Matthew G."
+                },
+                {
+                    "family": "Li",
+                    "given": "Michelle M."
+                },
+                {
+                    "family": "Siranosian",
+                    "given": "Benjamin A."
+                },
+                {
+                    "family": "Montgomery",
+                    "given": "Stephen B."
+                },
+                {
+                    "family": "Bhatt",
+                    "given": "Ami S."
+                }
+            ],
+            "container-title": "Cell Host & Microbe",
+            "id": "durrant2020",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        1,
+                        8
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "140-153.e9",
+            "title": "A Bioinformatic Analysis of Integrative Mobile Genetic Elements Highlights Their Role in Bacterial Adaptation",
+            "type": "article-journal",
+            "volume": "27"
+        },
+        {
+            "DOI": "10.1128/mBio.02938-21",
+            "URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8649781/",
+            "author": [
+                {
+                    "family": "Benler",
+                    "given": "Sean"
+                },
+                {
+                    "family": "Faure",
+                    "given": "Guilhem"
+                },
+                {
+                    "family": "Altae-Tran",
+                    "given": "Han"
+                },
+                {
+                    "family": "Shmakov",
+                    "given": "Sergey"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Feng"
+                },
+                {
+                    "family": "Koonin",
+                    "given": "Eugene"
+                }
+            ],
+            "container-title": "mBio",
+            "id": "benler2021",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "note": "PMID: 34872347 PMCID: PMC8649781",
+            "page": "e02938-21",
+            "title": "Cargo genes of Tn7-like transposons comprise an enormous diversity of defense systems, mobile genetic elements, and antibiotic resistance genes",
+            "type": "article-journal",
+            "volume": "12"
+        },
+        {
+            "DOI": "10.1007/978-1-4939-9877-7_20",
+            "author": [
+                {
+                    "family": "Carattoli",
+                    "given": "Alessandra"
+                },
+                {
+                    "family": "Hasman",
+                    "given": "Henrik"
+                }
+            ],
+            "container-title": "Methods in Molecular Biology (Clifton, N.J.)",
+            "id": "carattoli2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "language": "eng",
+            "note": "PMID: 31584170",
+            "page": "285-294",
+            "title": "PlasmidFinder and In Silico pMLST: Identification and Typing of Plasmid Replicons in Whole-Genome Sequencing (WGS)",
+            "title-short": "PlasmidFinder and In Silico pMLST",
+            "type": "article-journal",
+            "volume": "2075"
+        },
+        {
+            "DOI": "10.1371/journal.pone.0040438",
+            "URL": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0040438",
+            "author": [
+                {
+                    "family": "Alvarado",
+                    "given": "Andrés"
+                },
+                {
+                    "family": "Garcillán-Barcia",
+                    "given": "M. Pilar"
+                },
+                {
+                    "dropping-particle": "de la",
+                    "family": "Cruz",
+                    "given": "Fernando"
+                }
+            ],
+            "container-title": "PLOS ONE",
+            "id": "alvarado2012",
+            "issue": "7",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        7,
+                        11
+                    ]
+                ]
+            },
+            "language": "en",
+            "note": "Publisher: Public Library of Science",
+            "page": "e40438",
+            "title": "A Degenerate Primer MOB Typing (DPMT) Method to Classify Gamma-Proteobacterial Plasmids in Clinical and Environmental Settings",
+            "type": "article-journal",
+            "volume": "7"
+        },
+        {
+            "DOI": "10.1128/mBio.02060-21",
+            "author": [
+                {
+                    "family": "Ross",
+                    "given": "Karen"
+                },
+                {
+                    "family": "Varani",
+                    "given": "Alessandro M."
+                },
+                {
+                    "family": "Snesrud",
+                    "given": "Erik"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Hongzhan"
+                },
+                {
+                    "family": "Alvarenga",
+                    "given": "Danillo Oliveira"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Jian"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Cathy"
+                },
+                {
+                    "family": "McGann",
+                    "given": "Patrick"
+                },
+                {
+                    "family": "Chandler",
+                    "given": "Mick"
+                }
+            ],
+            "container-title": "mBio",
+            "id": "ross2021",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        10,
+                        26
+                    ]
+                ]
+            },
+            "language": "eng",
+            "note": "PMID: 34517763 PMCID: PMC8546635",
+            "page": "e0206021",
+            "title": "TnCentral: a Prokaryotic Transposable Element Database and Web Portal for Transposon Analysis",
+            "title-short": "TnCentral",
+            "type": "article-journal",
+            "volume": "12"
+        },
+        {
+            "DOI": "10.1007/978-1-61779-603-6_5",
+            "author": [
+                {
+                    "family": "Siguier",
+                    "given": "P."
+                },
+                {
+                    "family": "Varani",
+                    "given": "A."
+                },
+                {
+                    "family": "Perochon",
+                    "given": "J."
+                },
+                {
+                    "family": "Chandler",
+                    "given": "M."
+                }
+            ],
+            "container-title": "Methods in Molecular Biology",
+            "id": "siguier2012",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "page": "91-103",
+            "title": "Exploring bacterial insertion sequences with ISfinder: Objectives, uses, and future developments",
+            "title-short": "Exploring bacterial insertion sequences with ISfinder",
+            "type": "article-journal",
+            "volume": "859"
+        },
+        {
+            "DOI": "10.1093/bioinformatics/btp105",
+            "author": [
+                {
+                    "family": "Moura",
+                    "given": "A."
+                },
+                {
+                    "family": "Soares",
+                    "given": "M."
+                },
+                {
+                    "family": "Pereira",
+                    "given": "C."
+                },
+                {
+                    "family": "Leitao",
+                    "given": "N."
+                },
+                {
+                    "family": "Henriques",
+                    "given": "I."
+                },
+                {
+                    "family": "Correia",
+                    "given": "A."
+                }
+            ],
+            "container-title": "Bioinformatics",
+            "id": "moura2009",
+            "issue": "8",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009,
+                        4,
+                        15
+                    ]
+                ]
+            },
+            "page": "1096-8",
+            "title": "INTEGRALL: A database and search engine for integrons, integrases and gene cassettes",
+            "title-short": "INTEGRALL",
+            "type": "article-journal",
+            "volume": "25"
+        },
+        {
+            "DOI": "10.1093/nar/gkx607",
+            "author": [
+                {
+                    "family": "Cury",
+                    "given": "J."
+                },
+                {
+                    "family": "Touchon",
+                    "given": "M."
+                },
+                {
+                    "family": "Rocha",
+                    "given": "E. P. C."
+                }
+            ],
+            "container-title": "Nucleic Acids Research",
+            "id": "cury2017",
+            "issue": "15",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        9,
+                        6
+                    ]
+                ]
+            },
+            "note": "PMCID: PMC5587801",
+            "page": "8943-8956",
+            "title": "Integrative and conjugative elements and their hosts: Composition, distribution and organization",
+            "title-short": "Integrative and conjugative elements and their hosts",
+            "type": "article-journal",
+            "volume": "45"
+        },
+        {
+            "DOI": "10.1093/nar/gkw319",
+            "author": [
+                {
+                    "family": "Cury",
+                    "given": "J."
+                },
+                {
+                    "family": "Jove",
+                    "given": "T."
+                },
+                {
+                    "family": "Touchon",
+                    "given": "M."
+                },
+                {
+                    "family": "Neron",
+                    "given": "B."
+                },
+                {
+                    "family": "Rocha",
+                    "given": "E. P."
+                }
+            ],
+            "container-title": "Nucleic Acids Research",
+            "id": "cury2016",
+            "issue": "10",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        6,
+                        2
+                    ]
+                ]
+            },
+            "note": "PMCID: PMC4889954",
+            "page": "4539-50",
+            "title": "Identification and analysis of integrons and cassette arrays in bacterial genomes",
+            "type": "article-journal",
+            "volume": "44"
+        },
+        {
+            "DOI": "10.1371/journal.pone.0223680",
+            "URL": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223680",
+            "author": [
+                {
+                    "family": "Jiang",
+                    "given": "Xiaofang"
+                },
+                {
+                    "family": "Hall",
+                    "given": "Andrew Brantley"
+                },
+                {
+                    "family": "Xavier",
+                    "given": "Ramnik J."
+                },
+                {
+                    "family": "Alm",
+                    "given": "Eric J."
+                }
+            ],
+            "container-title": "PLOS ONE",
+            "id": "jiang2019",
+            "issue": "12",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        12,
+                        12
+                    ]
+                ]
+            },
+            "language": "en",
+            "note": "Publisher: Public Library of Science",
+            "page": "e0223680",
+            "title": "Comprehensive analysis of chromosomal mobile genetic elements in the gut microbiome reveals phylum-level niche-adaptive gene pools",
+            "type": "article-journal",
+            "volume": "14"
+        },
+        {
+            "DOI": "10.1073/pnas.0600833103",
+            "author": [
+                {
+                    "family": "Kapitonov",
+                    "given": "V. V."
+                },
+                {
+                    "family": "Jurka",
+                    "given": "J."
+                }
+            ],
+            "container-title": "Proceedings of the National Academy of Sciences of the United States of America",
+            "id": "kapitonov2006",
+            "issue": "12",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006,
+                        3,
+                        21
+                    ]
+                ]
+            },
+            "language": "eng",
+            "page": "4540-5",
+            "title": "Self-synthesizing DNA transposons in eukaryotes",
+            "type": "article-journal",
+            "volume": "103"
+        },
+        {
+            "DOI": "10.1016/j.mib.2017.04.004",
+            "author": [
+                {
+                    "family": "Krupovic",
+                    "given": "M."
+                },
+                {
+                    "family": "Beguin",
+                    "given": "P."
+                },
+                {
+                    "family": "Koonin",
+                    "given": "E. V."
+                }
+            ],
+            "container-title": "Current Opinion in Microbiology",
+            "id": "krupovic2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        5,
+                        1
+                    ]
+                ]
+            },
+            "page": "36-43",
+            "title": "Casposons: Mobile genetic elements that gave rise to the CRISPR-cas adaptation machinery",
+            "title-short": "Casposons",
+            "type": "article-journal",
+            "volume": "38"
+        },
+        {
+            "DOI": "10.1016/j.mib.2016.01.006",
+            "author": [
+                {
+                    "family": "Krupovic",
+                    "given": "M."
+                },
+                {
+                    "family": "Koonin",
+                    "given": "E. V."
+                }
+            ],
+            "container-title": "Current Opinion in Microbiology",
+            "id": "krupovic2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        6
+                    ]
+                ]
+            },
+            "note": "PMCID: PMC4899294",
+            "page": "25-33",
+            "title": "Self-synthesizing transposons: Unexpected key players in the evolution of viruses and defense systems",
+            "title-short": "Self-synthesizing transposons",
+            "type": "article-journal",
+            "volume": "31"
+        },
+        {
+            "DOI": "10.1186/1741-7007-12-36",
+            "author": [
+                {
+                    "family": "Krupovic",
+                    "given": "M."
+                },
+                {
+                    "family": "Makarova",
+                    "given": "K. S."
+                },
+                {
+                    "family": "Forterre",
+                    "given": "P."
+                },
+                {
+                    "family": "Prangishvili",
+                    "given": "D."
+                },
+                {
+                    "family": "Koonin",
+                    "given": "E. V."
+                }
+            ],
+            "container-title": "BMC Biol",
+            "id": "krupovic2014",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "page": "36",
+            "title": "Casposons: A new superfamily of self-synthesizing DNA transposons at the origin of prokaryotic CRISPR-cas immunity",
+            "title-short": "Casposons",
+            "type": "article-journal",
+            "volume": "12"
+        },
+        {
+            "DOI": "10.1016/j.celrep.2017.10.039",
+            "author": [
+                {
+                    "family": "Redrejo-Rodríguez",
+                    "given": "M."
+                },
+                {
+                    "family": "Ordóñez",
+                    "given": "C. D."
+                },
+                {
+                    "family": "Berjón-Otero",
+                    "given": "M."
+                },
+                {
+                    "family": "Moreno-González",
+                    "given": "J."
+                },
+                {
+                    "family": "Aparicio-Maldonado",
+                    "given": "C."
+                },
+                {
+                    "family": "Forterre",
+                    "given": "P."
+                },
+                {
+                    "family": "Salas",
+                    "given": "M."
+                },
+                {
+                    "family": "Krupovic",
+                    "given": "M."
+                }
+            ],
+            "container-title": "Cell Rep",
+            "id": "redrejo-rodríguez2017",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        11,
+                        7
+                    ]
+                ]
+            },
+            "page": "1574-1587",
+            "title": "Primer-independent DNA synthesis by a family b DNA polymerase from self-replicating mobile genetic elements",
+            "type": "article-journal",
+            "volume": "21"
+        },
+        {
+            "DOI": "10.1038/s41598-020-69356-6",
+            "URL": "http://dx.doi.org/10.1038/s41598-020-69356-6",
+            "author": [
+                {
+                    "family": "Flament-Simon",
+                    "given": "Saskia-Camille"
+                },
+                {
+                    "dropping-particle": "de",
+                    "family": "Toro",
+                    "given": "María"
+                },
+                {
+                    "family": "Chuprikova",
+                    "given": "Liubov"
+                },
+                {
+                    "family": "Blanco",
+                    "given": "Miguel"
+                },
+                {
+                    "family": "Moreno-González",
+                    "given": "Juan"
+                },
+                {
+                    "family": "Salas",
+                    "given": "Margarita"
+                },
+                {
+                    "family": "Blanco",
+                    "given": "Jorge"
+                },
+                {
+                    "family": "Redrejo-Rodríguez",
+                    "given": "Modesto"
+                }
+            ],
+            "container-title": "Scientific Reports",
+            "id": "flament-simon2020",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        7,
+                        27
+                    ]
+                ]
+            },
+            "language": "en",
+            "title": "High diversity and variability of pipolins among a wide range of pathogenic Escherichia coli strains",
+            "type": "article-journal",
+            "volume": "10"
+        }
+    ],
+    "project_biblios": [
+        "references.bib"
+    ]
+}

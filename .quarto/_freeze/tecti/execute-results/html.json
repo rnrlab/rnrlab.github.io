@@ -1,0 +1,15 @@
+{
+  "hash": "2a8664b75d9a15f1505b722e18eab3f8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Tectiviruses as a model\"\ndate: \"January 16, 2023\"\nauthor: \n  - name: Modesto\n    url: https://rnrlab.github.io\n    affiliation: Department of Biochemistry, UAM\n    affiliation_url: https://www.uam.es/\ndate-modified: \"2024-05-23 (17:38 h)\"\ncategories: \n  - MDA\n  - WGA\n  - piMDA\n  - DNA amplification\n  - Biotechnology\ntoc: TRUE\n---\n\n::: {.cell}\n\n:::\n\n\n# Tectiviruses as a model for protein-primed DNA replication\n\n![](images/ConcreteMessyKob-size_restricted.gif \"Under construction...\")\n\n::: callout-warning\n## Watch out! This page is still being synthesized!\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

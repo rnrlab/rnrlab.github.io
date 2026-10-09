@@ -1,0 +1,31 @@
+{
+    "id": "8890290E",
+    "path": "~/Documents/GitHub/rnrlab.github.io/people.qmd",
+    "project_path": "people.qmd",
+    "type": "quarto_markdown",
+    "hash": "4228634166",
+    "contents": "",
+    "dirty": false,
+    "created": 1693309330641.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "582:213.6363525390625",
+        "cursorPosition": "112,165",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1761254229,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1761254229839,
+    "read_only": false,
+    "read_only_alternatives": []
+}

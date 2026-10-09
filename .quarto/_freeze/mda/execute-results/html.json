@@ -1,0 +1,15 @@
+{
+  "hash": "68913a43f9b606542a23e0a1c6761e3e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"DNA polymerases in biotechnology\"\ndate: \"January 16, 2023\"\nauthor: \n  - name: Modesto\n    url: https://rnrlab.github.io\n    affiliation: Department of Biochemistry, UAM\n    affiliation_url: https://www.uam.es/\ndate-modified: \"2024-05-23 (16:53 h)\"\ncategories: \n  - MDA\n  - WGA\n  - piMDA\n  - DNA amplification\n  - Biotechnology\ntoc: TRUE\n---\n\n\n![](images/ConcreteMessyKob-size_restricted.gif \"Under construction...\")\n\n\n::: {.cell}\n\n:::\n\n\n::: callout-warning\n## Watch out! This page is still being synthesized!\n\nIn the meantime, we suggest our recent review on DNA polymerases for whole (meta)genome amplification: <https://mdpi.com/1422-0067/24/11/9331>\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "hash": "9e47c66d1a5bdb34976b47a80ce5ca23",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Contact us\"\ndate: \"2025-10-23 (23:09 h)\"\ntoc: TRUE\n---\n\n::: {.cell}\n\n:::\n\n\n\n\n\n## Biochemistry Department \\@ UAM Medicine Campus (Madrid)\n\n![](images/MedicinaMapa-01.jpg)\n\n## The lab By Metro\n\nThe lab is 10 min walk from the [*Begoña*]{.underline} Metro Station (Exit to *San Modesto* 😇). Follow the dashed line to the Biochemistry Department door. The arrow indicates a shortcut using a small door to the Medicine Campus.\n\nOnce inside the Campus walk straight until you find the big building of the School of Medicine.\n\n![](images/mapa_metro_lab.jpg)\n\n## Contact us\n\nYou can reach us on Twitter [![](figs/tw.png \"@RnR_Lab\"){width=\"14\" height=\"11\"}](https://twitter.com/RnR_Lab)@RnR_Lab\n\nFor inquires about publications or internships, please email Modesto (mredrejo at iib.uam.es)\n",
+    "supporting": [
+      "contact_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

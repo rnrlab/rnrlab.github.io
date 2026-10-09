@@ -1,0 +1,31 @@
+{
+    "id": "A24B72EF",
+    "path": "~/Documents/GitHub/rnrlab.github.io/funding.qmd",
+    "project_path": "funding.qmd",
+    "type": "quarto_markdown",
+    "hash": "1354863122",
+    "contents": "",
+    "dirty": false,
+    "created": 1716476244038.0,
+    "source_on_save": false,
+    "relative_order": 10,
+    "properties": {
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "2:0",
+        "cursorPosition": "13,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1773922184,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1773922184255,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,31 @@
+{
+    "id": "BDBD3926",
+    "path": "~/Documents/GitHub/rnrlab.github.io/index.qmd",
+    "project_path": "index.qmd",
+    "type": "quarto_markdown",
+    "hash": "2775649707",
+    "contents": "",
+    "dirty": false,
+    "created": 1693308961811.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "24,1",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "711:394.3999938964844"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1761254767,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1761254767736,
+    "read_only": false,
+    "read_only_alternatives": []
+}

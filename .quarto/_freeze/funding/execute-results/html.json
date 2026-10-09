@@ -1,0 +1,17 @@
+{
+  "hash": "b5cff9ca145d522be71764caf9af6d2e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Funding\"\ndate: \"January 5, 2023\"\ndate-modified: \"2026-03-20 (11:16 h)\"\ntoc: FALSE\n---\n\n::: {.cell}\n\n:::\n\n\n\n\n\nAlthough we always acknowledge our funding in publications and presentations, we also want to thank again our financiers and keep record of lab grants in this site. Unless otherwise stated, Modesto was the principal investigator of the grants below.\n\n# Molecular characterization of orthogonal replicons and their application as new biotechnology tools\n\n**Founder:** Agencia Estatal de Investigación, 1/9/2025-31/8/2028\n\n**Grant Ref.** PID2024-156454NB-I00.\n\n**Funding:** 150.000€\n\n![](figs/micin-uefeder-aei.png){width=\"600\"}\n\n# Functional characterization of primer-independent DNA polymerases in the context of genotoxic stress in bacteria\n\n**Founder:** Agencia Estatal de Investigación, 1/9/2022-31/12/2025\n\n**Grant Ref.** PID2021-123403NB-I00.\n\n**Funding:** 145.200€\n\n![](figs/micin-uefeder-aei.png){width=\"600\"}\n\n# Insights into Pipolins diversity and dynamics in a wide range of pathogenic bacteria.\n\n**Founder:** UAM-CAM, 1/1/2022-31/12/2023\n\n**Grant Ref.** SI3-PJI-2021-00271.\n\n**Funding:** 42.120€.\n\n![](figs/v_pricit.png)\n\n# Comprehensive virus-host protein interactome by the use of yeast-two-hybrid system coupled to next-generation sequencing analysis (VirHost-omics).\n\n**Founder:** Fundación Ramón Areces, 1/4/2019-31/12/2022 (PI since December 2019).\n\n**Grant Ref.:** CIVP19A5940.\n\n**Funding:** 129.600€\n\n![](figs/logo-FRA.png)\n\n# Primer-independent DNA polymerases and their applications in biotechnology and biomedicine.\n\n**Founder:** Agencia Estatal de Investigación, 1/1/2019-30/09/2022\n\n**Grant Ref.:** PGC2018-093723-A-I00.\n\n**Funding:** 127.050€\n\n![](figs/micin-uefeder-aei.png){width=\"600\"}\n\n# New fusion DNA polymerases with biotechnology applications.\n\n**Founder:** Fundación General CSIC, 1/9/2015-31/8/2018\n\n**Grant Ref.:** NewPols4Biotech.\n\n**Total Funding:** 159.000€\n\n[![](figs/Logo%20ComFuturo_Horizontal_espanol.png){fig-align=\"left\" width=\"398\"}](https://comfuturo.es/first-edition/)\n",
+    "supporting": [
+      "funding_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "fb7cb1d3"
+  },
+  "teaching.qmd": {
+    "teaching.html": "bc22db61"
+  },
+  "people.qmd": {
+    "people.html": "d09b4e9f"
+  },
+  "news.qmd": {
+    "news.html": "cf955cdc"
+  },
+  "polb.qmd": {
+    "polb.html": "64a56f91"
+  },
+  "contact.qmd": {
+    "contact.html": "76b62226"
+  },
+  "tecti.qmd": {
+    "tecti.html": "f20a2791"
+  },
+  "mge.qmd": {
+    "mge.html": "65d2f415"
+  },
+  "mda.qmd": {
+    "mda.html": "9fd5f89f"
+  },
+  "funding.qmd": {
+    "funding.html": "32c9f318"
+  }
+}
