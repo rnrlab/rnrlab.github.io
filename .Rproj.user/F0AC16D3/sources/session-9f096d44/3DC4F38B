@@ -3,7 +3,7 @@
     "path": "~/GitHub/rnrlab.github.io/news.qmd",
     "project_path": "news.qmd",
     "type": "quarto_markdown",
-    "hash": "3960706760",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1791552895772.0,
@@ -18,14 +18,14 @@
         "rmdVisualCollapsedChunks": "",
         "cursorPosition": "59,0",
         "scrollLine": "47",
-        "rmdVisualModeLocation": "777:639.0908813476562"
+        "rmdVisualModeLocation": "3827:4669.0908203125"
     },
     "folds": "",
-    "lastKnownWriteTime": 1791555966,
+    "lastKnownWriteTime": 1791631842,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1791555966651,
+    "last_content_update": 1791631842072,
     "read_only": false,
     "read_only_alternatives": []
 }

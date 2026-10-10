@@ -33,19 +33,19 @@ This autumn has been an exciting period for our laboratory, and we would first l
 
 At the Belgian Society for Viruses of Microbes symposium (BSVoM), Eduardo presented part of his PhD research focused on the use of dual RNA-seq to investigate phage-host interactions in two tectivirus models from an evolutionary perspective. This project is being carried out in collaboration with Annika Gillis, a long-standing collaborator of our laboratory and the organizer of the conference.
 
-The meeting provided a fantastic opportunity to discuss recent advances in phage biology with researchers from around the world and to receive valuable feedback on ongoing work.
+The meeting provided a fantastic opportunity to discuss recent advances in phage biology with researchers from around the world and to receive valuable feedback on Eduardo's ongoing work.
 
 [**8th DNA Polymerases Conference (Paris, France)**](https://www.8th-dna-polymerases.conferences-pasteur.org/)
 
 Members of the laboratory also attended the 8th DNA Polymerases Conference, one of the leading international meetings dedicated to DNA polymerases, genome replication, and DNA repair.
 
-Carmen and Víctor presented a poster describing results from one of the research chapters of Carmen's PhD thesis. In addition, Víctor delivered an oral presentation highlighting some of the latest findings from his doctoral research.
+Modesto, Carmen and Víctor presented a poster describing results from one of the research chapters of Carmen's PhD thesis. In addition, Víctor delivered an oral presentation highlighting some of the latest findings from his doctoral research.
 
 ![piPolB Poster at DNApols meeting](images/vmc_cmc_poster.jpeg)
 
 For our group, this conference is particularly meaningful because its scientific focus closely matches many of our research interests. Beyond presenting our work, it was a wonderful opportunity to exchange ideas with leading researchers in the field and to reconnect with long-time collaborators and friends.
 
-![Víctor talk](images/vmc_talk_paris.jpeg)
+![Víctor's talk](images/vmc_talk_paris.jpeg)
 
 Congratulations to Eduardo, Carmen, and Víctor for representing the laboratory so successfully. We are excited to see these projects continue to develop over the coming months.
 
@@ -57,7 +57,7 @@ On 12 June, Carmen successfully defended her PhD thesis entitled "Caracterizaci�
 
 ![The new Doctor](images/tesis_carmen.jpg)
 
-Carmen's thesis provides important advances in our understanding of primer-independent family B DNA polymerases (piPolBs), a unique group of enzymes that has become one of the central research interests of our laboratory. Her work combines molecular biology, biochemistry, genetics, and structural insights to explore the mechanisms and biological roles of these remarkable proteins.
+Carmen's thesis provides important advances in our understanding of primer-independent family B DNA polymerases (piPolBs), a unique group of enzymes that has become one of the central research interests of our laboratory. Her work combines molecular biology and biochemistry to perform a detailed structure-function analysis of these remarkable proteins.
 
 As thesis supervisor, this defense was particularly special for me. While it was the fourth doctoral thesis I have supervised, it was the first thesis developed entirely within our own laboratory and the first devoted exclusively to the study of piPolBs, a research line that has grown alongside the laboratory itself.
 
